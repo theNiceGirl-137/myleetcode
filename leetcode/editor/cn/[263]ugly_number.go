@@ -51,6 +51,7 @@ func isUgly(n int) bool {
 	if n == 0 {
 		return false
 	}
+	// n = 2^a * 3^b * 5^c
 	for n % 2 == 0 {
 		n /= 2
 	}
