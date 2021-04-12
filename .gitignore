@@ -2,3 +2,4 @@
 /leetcode/editor/cn/translation.json
 .idea/
 .DS_store
+/test/main.go
