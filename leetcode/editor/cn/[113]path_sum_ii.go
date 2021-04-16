@@ -67,6 +67,7 @@ func dfs(root *TreeNode, targetSum int, path []int, result *[][]int) {
 		if root.Val == targetSum {
 			// 数组是一种值
 			// 每次 append 之后不一定返回一个新切片地址，所以需要 copy 来保证数据准确
+			// 将 path 添加进结果集时先复制再加入，直接操作原切片数据会被后面的遍历修改
 			newPath := make([]int, len(path)+1)
 			newPath[len(path)] = root.Val
 			copy(newPath, path)
