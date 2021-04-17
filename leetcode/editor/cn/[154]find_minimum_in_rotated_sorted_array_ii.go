@@ -51,7 +51,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func findMin(nums []int) int {
+func findMin154(nums []int) int {
 	left, right := 0, len(nums)-1
 	for left < right {
 		if nums[left] == nums[right] {
