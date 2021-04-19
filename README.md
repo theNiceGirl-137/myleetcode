@@ -1,2 +1,11 @@
 # myleetcode
-:D
+仅分类有代表性的题目 :D
+## 贪心算法
++ 455 assign_cookies [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B455%5Dassign_cookies.go)
++ 135 candy [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B135%5Dcandy.go)
++ 435 non_overlapping_intervals [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B435%5Dnon_overlapping_intervals.go)
++ 605 can_place_flowers [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B605%5Dcan_place_flowers.go)
++ 452 minimum_number_of_arrows_to_burst_balloons [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B452%5Dminimum_number_of_arrows_to_burst_balloons.go)
++ 763 partition_labels [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B763%5Dpartition_labels.go)
++ 122 best_time_to_buy_and_sell_stock_ii [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B122%5Dbest_time_to_buy_and_sell_stock_ii.go)
++ 406 queue_reconstruction_by_height [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B406%5Dqueue_reconstruction_by_height.go)
