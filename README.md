@@ -11,7 +11,7 @@
 + **665(Easy)** _non_decreasing_array_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B665%5Dnon_decreasing_array.go)
 + **763(Medium)** _partition_labels_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B763%5Dpartition_labels.go)
 ## 双指针
-+ **167(Easy)** __ [Answer]()
++ **167(Easy)** _two_sum_ii_input_array_is_sorted_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B167%5Dtwo_sum_ii_input_array_is_sorted.go)
 ## 每日一题
 + **1(Easy)** _two_sum_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1%5Dtwo_sum.go)
 + **6(Medium)** _zigzag_conversion_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B6%5Dzigzag_conversion.go)
