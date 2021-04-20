@@ -1,5 +1,5 @@
 # myleetcode
-仅分类有代表性的题目 :D
+参考 **LeetCode 101** 仅分类有代表性的题目 :D
 ## 贪心算法
 + **122(Easy)** _best_time_to_buy_and_sell_stock_ii_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B122%5Dbest_time_to_buy_and_sell_stock_ii.go)
 + **135(Hard)** _candy_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B135%5Dcandy.go)
