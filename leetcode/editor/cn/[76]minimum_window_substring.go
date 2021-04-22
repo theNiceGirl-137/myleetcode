@@ -34,6 +34,9 @@
 
 
 package leetcode
+
+import "math"
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func minWindow(s string, t string) string {
 	need := make(map[byte]int, 0)
@@ -43,30 +46,31 @@ func minWindow(s string, t string) string {
 	}
 	// l 和 r 作为窗口的左右指针，count 作为已经加入的元素的数量，当 count 等于 t 的长度时表示
 	// 当前窗口中包含了全部需要的元素
-	l, r, count, minL, minSize := 0, 0, 0, 0, len(s)+1
+	// 若当前窗口已经包含 t 中全部的字符
+	// 移动 l，在不影响结果的情况下获得最短的字符串
+	var res string
+	l, r, minLen := 0, 0, math.MaxInt32
 	for r < len(s) {
-		if v, ok := need[s[r]]; ok && v-1 >= 0 {
-			count++
-			need[s[r]]--
-			// 若当前窗口已经包含 t 中全部的字符
-			// 移动 l，在不影响结果的情况下获得最短的字符串
-			for count == len(t) {
-				if r-l+1 < minSize {
-					minL = l
-					minSize = r-l+1
-				}
-				if v, ok = need[s[l]]; ok && v+1 > 0 {
-					need[s[l]]++
-					count--
-				}
-				l++
+		need[s[r]]--
+		for check(need) {
+			if r-l+1 < minLen {
+				minLen = r-l+1
+				res = s[l:r+1]
 			}
+			need[s[l]]++
+			l++
 		}
 		r++
 	}
-	if minSize > len(s) {
-		return ""
+	return res
+}
+
+func check(need map[byte]int) bool {
+	for _, v := range need {
+		if v > 0 {
+			return false
+		}
 	}
-	return s[minL:minL+minSize]
+	return true
 }
 //leetcode submit region end(Prohibit modification and deletion)
