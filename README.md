@@ -15,7 +15,7 @@
 + **88(Easy)** _merge_sorted_array_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B88%5Dmerge_sorted_array.go)
 + **142(Medium)** _linked_list_cycle_ii_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B142%5Dlinked_list_cycle_ii.go)
 + **167(Easy)** _two_sum_ii_input_array_is_sorted_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B167%5Dtwo_sum_ii_input_array_is_sorted.go)
-+ **633(Medium)** _[633]sum_of_square_numbers_ [Answer](https://github.com/theNiceGirl-137/myleetcode/commit/084e16b0f5d7fab0ac51c8c8663ef6171e84ee76)
++ **633(Medium)** _[633]sum_of_square_numbers_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B633%5Dsum_of_square_numbers.go)
 ## 每日一题
 + **1(Easy)** _two_sum_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1%5Dtwo_sum.go)
 + **6(Medium)** _zigzag_conversion_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B6%5Dzigzag_conversion.go)
