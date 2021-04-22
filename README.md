@@ -1,8 +1,8 @@
 # myleetcode
 参考**LeetCode 101**分类有代表性的题目 :D
 ## 贪心算法
-| 题目                       | 难度   | 解答                                                         |
-| :------------------------- | :----- | :----------------------------------------------------------- |
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 122 买卖股票的最佳时机 II  | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B122%5Dbest_time_to_buy_and_sell_stock_ii.go) |
 | 135 分发糖果               | Hard   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B135%5Dcandy.go) |
 | 406 根据身高重建队列       | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B406%5Dqueue_reconstruction_by_height.go) |
@@ -22,6 +22,9 @@
 | 524 通过删除字母匹配到字典最长单词 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B524%5Dlongest_word_in_dictionary_through_deleting.go) |
 | 633 平方数之和                     | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B633%5Dsum_of_square_numbers.go) |
 | 680 验证回文字符串 II              | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B680%5Dvalid_palindrome_ii.go) |
+## 二分查找
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
