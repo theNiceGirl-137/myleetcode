@@ -15,6 +15,7 @@
 + **88(Easy)** _merge_sorted_array_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B88%5Dmerge_sorted_array.go)
 + **142(Medium)** _linked_list_cycle_ii_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B142%5Dlinked_list_cycle_ii.go)
 + **167(Easy)** _two_sum_ii_input_array_is_sorted_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B167%5Dtwo_sum_ii_input_array_is_sorted.go)
++ **524(Medium)** _longest_word_in_dictionary_through_deleting_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B524%5Dlongest_word_in_dictionary_through_deleting.go)
 + **633(Medium)** _sum_of_square_numbers_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B633%5Dsum_of_square_numbers.go)
 + **680(Easy)** _valid_palindrome_ii_ [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B680%5Dvalid_palindrome_ii.go)
 ## 每日一题
