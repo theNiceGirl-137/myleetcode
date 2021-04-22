@@ -47,4 +47,4 @@
 | 264 丑数 II                        | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[264]ugly_number_ii.go) |
 | 350 两个数组的交集 II              | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[350]intersection_of_two_arrays_ii.go) |
 | 501 二叉搜索树中的众数             | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[501]find_mode_in_binary_search_tree.go) |
-| 783 二叉搜索树节点最小距离         | Easy   | [Answer](                                                    |
+| 783 二叉搜索树节点最小距离         | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B783%5Dminimum_distance_between_bst_nodes.go) |
