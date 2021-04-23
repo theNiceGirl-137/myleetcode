@@ -47,6 +47,7 @@ package leetcode
 func searchRange(nums []int, target int) []int {
 	l, r := 0, len(nums)-1
 	for l <= r {
+		// 注意退出条件
 		mid := (r+l)/2
 		if nums[mid] == target {
 			i := mid
