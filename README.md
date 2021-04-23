@@ -28,6 +28,7 @@
 | 34 在排序数组中查找元素的第一个和最后一个位置 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B34%5Dfind_first_and_last_position_of_element_in_sorted_array.go) |
 | 69 x 的平方根 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B69%5Dsqrtx.go) |
 | 81 搜索旋转排序数组 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B81%5Dsearch_in_rotated_sorted_array_ii.go) |
+| 154 寻找旋转排序数组中的最小值 II  | Hard   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[154]find_minimum_in_rotated_sorted_array_ii.go) |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
@@ -45,7 +46,6 @@
 | 113 路径总和 II                    | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[113]path_sum_ii.go) |
 | 141 环形链表                       | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[141]linked_list_cycle.go) |
 | 153 寻找旋转排序数组中的最小值     | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[153]find_minimum_in_rotated_sorted_array.go) |
-| 154 寻找旋转排序数组中的最小值 II  | Hard   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[154]find_minimum_in_rotated_sorted_array_ii.go) |
 | 179 最大数                         | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[179]largest_number.go) |
 | 189 旋转数组                       | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[189]rotate_array.go) |
 | 235 二叉搜索树的最近公共祖先       | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[235]lowest_common_ancestor_of_a_binary_search_tree.go) |
