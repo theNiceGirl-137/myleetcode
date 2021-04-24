@@ -32,7 +32,7 @@
 // 👍 567 👎 0
 
 
-package main
+package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func checkPossibility(nums []int) bool {
 	// 如果将 nums[i] 缩小，可能会导致其无法融入前面已经遍历过的非递减子数列
@@ -40,7 +40,7 @@ func checkPossibility(nums []int) bool {
 	if len(nums) == 1 {
 		return true
 	}
-	flag := (nums[0] <= nums[1])
+	flag := nums[0] <= nums[1]
 	for i := 1; i < len(nums)-1; i++ {
 		if nums[i] > nums[i+1] {
 			if flag {
