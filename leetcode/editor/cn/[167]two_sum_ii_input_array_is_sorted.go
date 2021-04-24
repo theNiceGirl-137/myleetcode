@@ -45,7 +45,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func twoSum(numbers []int, target int) []int {
+func twoSum167(numbers []int, target int) []int {
 	i, j := 0, len(numbers)-1
 	for i < j {
 		sum := numbers[i]+numbers[j]
