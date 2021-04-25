@@ -25,6 +25,7 @@
 ## 二分查找
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 4 寻找两个正序数组的中位数 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B4%5Dmedian_of_two_sorted_arrays.go) |
 | 34 在排序数组中查找元素的第一个和最后一个位置 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B34%5Dfind_first_and_last_position_of_element_in_sorted_array.go) |
 | 69 x 的平方根 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B69%5Dsqrtx.go) |
 | 81 搜索旋转排序数组 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B81%5Dsearch_in_rotated_sorted_array_ii.go) |
