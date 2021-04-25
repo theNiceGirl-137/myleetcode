@@ -66,6 +66,8 @@ import "math"
 //leetcode submit region begin(Prohibit modification and deletion)
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	l := len(nums1)+len(nums2)
+	// 如果数组长度为偶数，需要求中间两个数的平均数
+	// 为奇数则直接返回中间的数
 	if l % 2 == 0 {
 		return (findKthNumber(nums1, nums2, 0, 0, l/2) + findKthNumber(nums1, nums2, 0, 0, l/2+1)) / 2
 	}
@@ -84,22 +86,25 @@ func findKthNumber(nums1, nums2 []int, l1, l2, k int) float64 {
 		return float64(nums1[l1+k-1])
 	// 如果已经只剩下一个数要找，立即返回
 	case k == 1:
-		return float64(min(nums1[l1], nums2[l2]))
+		return float64(min1(nums1[l1], nums2[l2]))
+	// 如果移动指针之后的下标超出范围设为最大值
 	case l1+k/2-1 >= len(nums1):
 		m1 = math.MaxInt64
 	case l2+k/2-1 >= len(nums2):
 		m2 = math.MaxInt64
+	// m1 与 m2 分别是移动指针到本次迭代位置时指向的值
 	default:
 		m1 = nums1[l1+k/2-1]
 		m2 = nums2[l2+k/2-1]
 	}
+	// 比较本次迭代指向的值，将较小的部分剔除，只需要在剩下的部分找到导数第 k-k/2 大的数
 	if m1 <= m2 {
 		return findKthNumber(nums1, nums2, l1+k/2, l2, k-k/2)
 	}
 	return findKthNumber(nums1, nums2, l1, l2+k/2, k-k/2)
 }
 
-func min(a, b int) int {
+func min1(a, b int) int {
 	if a < b {
 		return a
 	}
