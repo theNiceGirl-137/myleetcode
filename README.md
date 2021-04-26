@@ -34,6 +34,7 @@
 ## 排序算法
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 75 颜色分类 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B75%5Dsort_colors.go) |
 | 215 数组中的第 K 个最大元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B215%5Dkth_largest_element_in_an_array.go) |
 | 347 前 K 个高频元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B347%5Dtop_k_frequent_elements.go) |
 | 451 根据字符出现频率排序 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B451%5Dsort_characters_by_frequency.go) |
