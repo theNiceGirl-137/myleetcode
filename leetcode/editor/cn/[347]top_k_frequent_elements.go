@@ -40,7 +40,7 @@ func topKFrequent(nums []int, k int) []int {
 	// 为每个值设立一个桶，桶内统计这个值出现的次数
 	for i := range nums {
 		counts[nums[i]]++
-		maxCount = max(maxCount, counts[nums[i]])
+		maxCount = max347(maxCount, counts[nums[i]])
 	}
 	// 对桶的频次进行排序
 	buckets := make([][]int, maxCount+1)
@@ -64,7 +64,7 @@ func topKFrequent(nums []int, k int) []int {
 	return res
 }
 
-func max(a, b int) int {
+func max347(a, b int) int {
 	if a > b {
 		return a
 	}

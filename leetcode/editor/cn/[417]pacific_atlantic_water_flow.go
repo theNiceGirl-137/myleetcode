@@ -42,7 +42,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-var direction = []int{-1, 0, 1, 0, -1}
+var direction417 = []int{-1, 0, 1, 0, -1}
 
 // 如果对所有位置进行搜索，在不剪枝的情况下复杂度会很高，因此可以反过来想，从两个大洋
 // 往上流，只需要对矩形四条边进行搜索
@@ -60,12 +60,12 @@ func pacificAtlantic(heights [][]int) [][]int {
 	}
 	// 分别搜索四条边
 	for i := 0; i < m; i++ {
-		dfs(heights, canReachP, i, 0)
-		dfs(heights, canReachA, i, n-1)
+		dfs417(heights, canReachP, i, 0)
+		dfs417(heights, canReachA, i, n-1)
 	}
 	for i := 0; i < n; i++ {
-		dfs(heights, canReachP, 0, i)
-		dfs(heights, canReachA, m-1, i)
+		dfs417(heights, canReachP, 0, i)
+		dfs417(heights, canReachA, m-1, i)
 	}
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
@@ -77,17 +77,17 @@ func pacificAtlantic(heights [][]int) [][]int {
 	return ans
 }
 
-func dfs(heights [][]int, canReach [][]bool, r, c int) {
+func dfs417(heights [][]int, canReach [][]bool, r, c int) {
 	if canReach[r][c] {
 		return
 	}
 	canReach[r][c] = true
 	// 遍历周围的结点
 	for i := 0; i < 4; i++ {
-		x := r + direction[i]
-		y := c + direction[i+1]
+		x := r + direction417[i]
+		y := c + direction417[i+1]
 		if x >= 0 && x < len(heights) && y >= 0 && y < len(heights[0]) && heights[r][c] <= heights[x][y] {
-			dfs(heights, canReach, x, y)
+			dfs417(heights, canReach, x, y)
 		}
 	}
 }

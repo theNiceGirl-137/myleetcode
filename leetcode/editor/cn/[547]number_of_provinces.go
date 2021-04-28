@@ -52,18 +52,18 @@ func findCircleNum(isConnected [][]int) int {
 	visited := make([]bool, n)
 	for i := 0; i < n; i++ {
 		if !visited[i] {
-			dfs(isConnected, i, visited)
+			dfs547(isConnected, i, visited)
 			count++
 		}
 	}
 	return count
 }
 
-func dfs(isConnected [][]int, i int, visited []bool) {
+func dfs547(isConnected [][]int, i int, visited []bool) {
 	visited[i] = true
 	for k := 0; k < len(isConnected); k++ {
 		if isConnected[i][k] == 1 && !visited[k] {
-			dfs(isConnected, k, visited)
+			dfs547(isConnected, k, visited)
 		}
 	}
 }

@@ -55,11 +55,11 @@ package leetcode
 func pathSum(root *TreeNode, targetSum int) [][]int {
 	result := make([][]int, 0)
 	path := make([]int, 0)
-	dfs(root, targetSum, path, &result)
+	dfs113(root, targetSum, path, &result)
 	return result
 }
 
-func dfs(root *TreeNode, targetSum int, path []int, result *[][]int) {
+func dfs113(root *TreeNode, targetSum int, path []int, result *[][]int) {
 	if root == nil {
 		return
 	}
@@ -75,7 +75,7 @@ func dfs(root *TreeNode, targetSum int, path []int, result *[][]int) {
 		}
 		return
 	}
-	dfs(root.Left, targetSum-root.Val, append(path, root.Val), result)
-	dfs(root.Right, targetSum-root.Val, append(path, root.Val), result)
+	dfs113(root.Left, targetSum-root.Val, append(path, root.Val), result)
+	dfs113(root.Right, targetSum-root.Val, append(path, root.Val), result)
 }
 //leetcode submit region end(Prohibit modification and deletion)

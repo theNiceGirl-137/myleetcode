@@ -40,7 +40,7 @@ func partitionLabels(S string) []int {
 	start, end := 0, 0
 	for i := range SToArray {
 		// 一个片段结束的位置一定是结束位置最晚的某个字符的下标
-		end = max(end, info[SToArray[i]])
+		end = max763(end, info[SToArray[i]])
 		if i == end {
 			res = append(res, end-start+1)
 			start = end+1
@@ -49,7 +49,7 @@ func partitionLabels(S string) []int {
 	return res
 }
 
-func max(i, j int) int {
+func max763(i, j int) int {
 	if i > j {
 		return i
 	}
