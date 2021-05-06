@@ -20,27 +20,21 @@ package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func permute(nums []int) [][]int {
 	var ans [][]int
-	var backTracking func(path []int)
-	visited := make(map[int]bool)
-	backTracking = func(path []int) {
-		if len(path) == len(nums) {
-			temp := make([]int, len(path))
-			copy(temp, path)
-			ans = append(ans, temp)
-			return
-		}
-		for _, v := range nums {
-			if visited[v] {
-				continue
-			}
-			path = append(path, v)
-			visited[v] = true
-			backTracking(path)
-			path = path[:len(path)-1]
-			visited[v] = false
-		}
-	}
-	backTracking([]int{})
+	backTracking46(nums, 0, &ans)
 	return ans
+}
+
+func backTracking46(nums []int, level int, ans *[][]int) {
+	if level == len(nums)-1 {
+		temp := make([]int, len(nums))
+		copy(temp, nums)
+		*ans = append(*ans, temp)
+		return
+	}
+	for  i := level; i < len(nums); i++{
+		nums[i], nums[level] = nums[level], nums[i]
+		backTracking46(nums, level+1, ans)
+		nums[i], nums[level] = nums[level], nums[i]
+	}
 }
 //leetcode submit region end(Prohibit modification and deletion)
