@@ -71,7 +71,7 @@ func backTracking79(i, j int, board [][]byte, word string, find *bool, visited [
 	if i < 0 || i >= len(board) || j < 0 || j >= len(board[0]) {
 		return
 	}
-	if visited[i][j] == true || *find == true || board[i][j] != word[pos] {
+	if visited[i][j] || *find || board[i][j] != word[pos] {
 		return
 	}
 	if pos == len(word)-1 {
