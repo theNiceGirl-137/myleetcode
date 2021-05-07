@@ -34,6 +34,7 @@
 ## 排序算法
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+|51 N 皇后 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B51%5Dn_queens.go) |
 | 75 颜色分类 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B75%5Dsort_colors.go) |
 | 215 数组中的第 K 个最大元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B215%5Dkth_largest_element_in_an_array.go) |
 | 347 前 K 个高频元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B347%5Dtop_k_frequent_elements.go) |
