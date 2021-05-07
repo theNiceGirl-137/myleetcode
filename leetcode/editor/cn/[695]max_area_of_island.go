@@ -44,7 +44,7 @@ func maxAreaOfIsland(grid [][]int) int {
 
 // 栈
 // 对于四个方向的遍历，每相邻两位即为上下左右四个方向之一
-var direction = []int{-1, 0, 1, 0, -1}
+var direction695 = []int{-1, 0, 1, 0, -1}
 
 func stackWay(grid [][]int) int {
 	var localArea, area, x, y int
@@ -61,8 +61,8 @@ func stackWay(grid [][]int) int {
 					island = island[:len(island)-1]
 					// 遍历相连的四个点
 					for k := 0; k < 4; k++ {
-						x = top[0]+direction[k]
-						y = top[1]+direction[k+1]
+						x = top[0]+direction695[k]
+						y = top[1]+direction695[k+1]
 						if x >= 0 && x < m && y >= 0 && y < n && grid[x][y] == 1 {
 							grid[x][y] = 0
 							localArea++
@@ -101,8 +101,8 @@ func dfs(grid [][]int, r, c int) int {
 	var x, y int
 	area := 1
 	for i := 0; i < 4; i++ {
-		x = r + direction[i]
-		y = c + direction[i+1]
+		x = r + direction695[i]
+		y = c + direction695[i+1]
 		if x >= 0 && x < len(grid) && y >= 0 && y < len(grid[0]) {
 			area += dfs(grid, x, y)
 		}
