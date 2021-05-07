@@ -86,14 +86,14 @@ func recursionWay1(grid [][]int) int {
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[0]); j++ {
 			if grid[i][j] == 1 {
-				maxArea = max(maxArea, dfs(grid, i, j))
+				maxArea = max(maxArea, dfs695(grid, i, j))
 			}
 		}
 	}
 	return maxArea
 }
 
-func dfs(grid [][]int, r, c int) int {
+func dfs695(grid [][]int, r, c int) int {
 	if grid[r][c] == 0 {
 		return 0
 	}
@@ -104,7 +104,7 @@ func dfs(grid [][]int, r, c int) int {
 		x = r + direction695[i]
 		y = c + direction695[i+1]
 		if x >= 0 && x < len(grid) && y >= 0 && y < len(grid[0]) {
-			area += dfs(grid, x, y)
+			area += dfs695(grid, x, y)
 		}
 	}
 	return area
@@ -118,18 +118,18 @@ func recursionWay2(grid [][]int) int {
 	maxArea := 0
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[0]); j++ {
-			maxArea = max(maxArea, dfs2(grid, i, j))
+			maxArea = max(maxArea, dfs695_2(grid, i, j))
 		}
 	}
 	return maxArea
 }
 
-func dfs2(grid [][]int, r, c int) int {
+func dfs695_2(grid [][]int, r, c int) int {
 	if r < 0 || r >= len(grid) || c < 0 || c >= len(grid[0]) || grid[r][c] == 0 {
 		return 0
 	}
 	grid[r][c] = 0
-	return 1 + dfs2(grid, r+1, c) + dfs2(grid, r-1, c) + dfs2(grid, r, c+1) + dfs2(grid, r, c-1)
+	return 1 + dfs695_2(grid, r+1, c) + dfs695_2(grid, r-1, c) + dfs695_2(grid, r, c+1) + dfs695_2(grid, r, c-1)
 }
 
 func max(a, b int) int {
