@@ -42,7 +42,6 @@ package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 var direction934 = []int{-1, 0, 1, 0, -1}
 
-// https://leetcode-cn.com/problems/shortest-bridge/solution/go-by-louv-0bbj/
 func shortestBridge(A [][]int) int {
 	queue := make([][2]int, 0)
 	flipped := false
@@ -61,7 +60,8 @@ func shortestBridge(A [][]int) int {
 	level := 0
 	for len(queue) > 0 {
 		level++
-		for i := 0; i < len(queue); i++ {
+		length := len(queue)
+		for i := 0; i < length; i++ {
 			temp := queue[0]
 			queue = queue[1:]
 			for j := 0; j < 4; j++ {
