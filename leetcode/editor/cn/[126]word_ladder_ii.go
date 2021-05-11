@@ -72,8 +72,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 	q1 := map[string]bool{beginWord: true}
 	q2 := map[string]bool{endWord: true}
 	next := make(map[string][]string)
-	reversed, found := false, false
-	// 从起始节点和终止节点分别进行广度优先搜索
+	var reversed, found bool
 	for len(q1) > 0 {
 		q := make(map[string]bool)
 		for key := range q1 {
@@ -128,7 +127,7 @@ func backTracking126(beginWord, endWord string, next map[string][]string, path [
 	if beginWord == endWord {
 		temp := make([]string, len(path))
 		copy(temp, path)
-		*ans = append(*ans, path)
+		*ans = append(*ans, temp)
 		return
 	}
 	for _, v := range next[beginWord] {
