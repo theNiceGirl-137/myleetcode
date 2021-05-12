@@ -73,6 +73,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 	q2 := map[string]bool{endWord: true}
 	next := make(map[string][]string)
 	var reversed, found bool
+	// 从起始节点和终点节点分别进行广度优先搜索
 	for len(q1) > 0 {
 		q := make(map[string]bool)
 		for key := range q1 {
@@ -82,6 +83,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 				for j := 0; j < 26; j++ {
 					s[i] = byte(j + 'a')
 					s1 := string(s)
+					// 相遇
 					if q2[s1] {
 						if reversed {
 							next[s1] = append(next[s1], key)
@@ -90,12 +92,14 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 						}
 						found = true
 					}
+					// 填充表示字符串相连的数组
 					if dict[s1] {
 						if reversed {
 							next[s1] = append(next[s1], key)
 						} else {
 							next[key] = append(next[key], s1)
 						}
+						// q 用来表示当前路径存在的节点
 						q[s1] = true
 					}
 				}
@@ -105,9 +109,12 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 		if found {
 			break
 		}
+		// 将当前路径中存在的节点从 dict 中删掉，避免重复查找
 		for key := range q {
 			delete(dict, key)
 		}
+		// 只延展当前层节点数最少的那一端，减少搜索的节点数
+		// 按层遍历，路径的长度是一样的
 		if len(q) <= len(q2) {
 			q1 = q
 		} else {
