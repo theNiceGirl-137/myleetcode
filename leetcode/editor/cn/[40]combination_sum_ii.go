@@ -50,6 +50,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 }
 
 func backTracking40(ans *[][]int, comb, candidate []int, target, sum,  pos int) {
+	// 及时终止回溯，减少搜索次数
 	if sum >= target {
 		if sum == target {
 			temp := make([]int, len(comb))
@@ -63,6 +64,7 @@ func backTracking40(ans *[][]int, comb, candidate []int, target, sum,  pos int) 
 			continue
 		}
 		comb = append(comb, candidate[i])
+		// 为防止找到同样的结果，下次搜索时应该从下一位开始
 		backTracking40(ans, comb, candidate, target, sum+candidate[i], i+1)
 		comb = comb[:len(comb)-1]
 	}
