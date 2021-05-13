@@ -41,6 +41,7 @@
 ## 搜索算法
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 40 组合总和 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B40%5Dcombination_sum_ii.go) |
 | 46 全排列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B46%5Dpermutations.go) |
 | 47 全排列 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B47%5Dpermutations_ii.go) |
 | 51 N 皇后 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B51%5Dn_queens.go) |
