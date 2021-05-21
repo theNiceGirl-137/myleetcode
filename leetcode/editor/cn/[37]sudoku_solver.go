@@ -61,10 +61,10 @@ func solveSudoku(board [][]byte)  {
 		columns[i] = make(map[int]bool, 9)
 		blocks[i] = make(map[int]bool, 9)
 	}
-	for i := 0; i < len(board); i++ {
-		for j := 0; j < len(board[0]); j++ {
+	for i := 0; i < 9; i++ {
+		for j := 0; j < 9; j++ {
 			if board[i][j] != '.' {
-				v := int(board[i][j])+0
+				v := int(board[i][j]-'0')
 				rows[i][v] = true
 				columns[j][v] = true
 				blocks[findBlock(i, j)][v] = true
