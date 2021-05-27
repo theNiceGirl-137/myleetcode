@@ -1,5 +1,4 @@
 # myleetcode
-参考**LeetCode 101**分类有代表性的题目 :D
 ## 贪心算法
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
@@ -56,6 +55,10 @@
 | 547 省份数量 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B547%5Dnumber_of_provinces.go) |
 | 695 岛屿的最大面积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B695%5Dmax_area_of_island.go) |
 | 934 最短的桥 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B934%5Dshortest_bridge.go) |
+## 动态规划
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 70 爬楼梯 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[70]climbing_stairs.go) |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
@@ -68,7 +71,6 @@
 | 26 删除有序数组中的重复项 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[26]remove_duplicates_from_sorted_array.go) |
 | 27 移除元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[27]remove_element.go) |
 | 66 加一 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[66]plus_one.go) |
-| 70 爬楼梯 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[70]climbing_stairs.go) |
 | 106 从中序与后序遍历序列构造二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[106]construct_binary_tree_from_inorder_and_postorder_traversal.go) |
 | 113 路径总和 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[113]path_sum_ii.go) |
 | 141 环形链表 | Easy   | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[141]linked_list_cycle.go) |
