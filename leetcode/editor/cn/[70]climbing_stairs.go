@@ -37,12 +37,24 @@ func climbStairs(n int) int {
 	// (4) --> (2)+2 (3)+1 --> 5
 	// 爬到 n 阶的时候，有两种可能，从 n-2 阶处一次走两阶或者从 n-1 阶处走一阶
 	// 故爬到 n 阶只需要关注爬到 n-2 阶处和 n-1 处所需要的方法数
-	dp := make([]int, n+1)
-	dp[1] = 1
-	dp[2] = 2
-	for i := 3; i <= n; i++ {
-		dp[i] = dp[i-2] + dp[i-1]
+	//dp := make([]int, n+1)
+	//dp[1] = 1
+	//dp[2] = 2
+	//for i := 3; i <= n; i++ {
+	//	dp[i] = dp[i-2] + dp[i-1]
+	//}
+	//return dp[n]
+	// 对动态规划进行空间压缩，因为 dp[i] 只与 dp[i-1] 和 dp[i-2] 有关
+	if n <= 2 {
+		return n
 	}
-	return dp[n]
+	var cur int
+	pre2, pre1 := 1, 2
+	for i := 2; i < n; i++ {
+		cur = pre2+pre1
+		pre2 = pre1
+		pre1 = cur
+	}
+	return cur
 }
 //leetcode submit region end(Prohibit modification and deletion)
