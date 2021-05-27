@@ -77,6 +77,8 @@ func findMinHeightTrees(n int, edges [][]int) []int {
 	}
 	queue := make([]int, 0)
 	// 把所有出度为 1 的节点入队，即叶子节点
+	// 找到从两边同时向中间靠近的节点，这个中间距离相当于把整个距离二分
+	// 自然就是到两边距离最小的点，也就是到其它叶子节点最近的点
 	for i := 0; i < n; i++ {
 		if degree[i] == 1 {
 			queue = append(queue, i)
