@@ -70,7 +70,7 @@ func stackWay(grid [][]int) int {
 						}
 					}
 				}
-				area = max(area, localArea)
+				area = max695(area, localArea)
 			}
 		}
 	}
@@ -86,7 +86,7 @@ func recursionWay1(grid [][]int) int {
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[0]); j++ {
 			if grid[i][j] == 1 {
-				maxArea = max(maxArea, dfs695(grid, i, j))
+				maxArea = max695(maxArea, dfs695(grid, i, j))
 			}
 		}
 	}
@@ -118,7 +118,7 @@ func recursionWay2(grid [][]int) int {
 	maxArea := 0
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[0]); j++ {
-			maxArea = max(maxArea, dfs695_2(grid, i, j))
+			maxArea = max695(maxArea, dfs695_2(grid, i, j))
 		}
 	}
 	return maxArea
@@ -132,7 +132,7 @@ func dfs695_2(grid [][]int, r, c int) int {
 	return 1 + dfs695_2(grid, r+1, c) + dfs695_2(grid, r-1, c) + dfs695_2(grid, r, c+1) + dfs695_2(grid, r, c-1)
 }
 
-func max(a, b int) int {
+func max695(a, b int) int {
 	if a > b {
 		return a
 	}
