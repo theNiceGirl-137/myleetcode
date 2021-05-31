@@ -65,7 +65,7 @@ func updateMatrix(mat [][]int) [][]int {
 			dp[i][j] = math.MaxInt32
 		}
 	}
-	// 从左上到右下搜索
+	// 从左上到右下搜索，只关注右和下两个方向
 	for i := 0; i < len(mat); i++ {
 		for j := 0; j < len(mat[0]); j++ {
 			if mat[i][j] == 0 {
@@ -80,7 +80,7 @@ func updateMatrix(mat [][]int) [][]int {
 			}
 		}
 	}
-	// 从右下到左上搜索
+	// 从右下到左上搜索，只关注左和上两个方向
 	for i := len(mat)-1; i >= 0; i-- {
 		for j := len(mat[0])-1; j >= 0; j-- {
 			if mat[i][j] != 0 {
