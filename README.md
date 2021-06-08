@@ -61,6 +61,7 @@
 | 64 最小路径和 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B64%5Dminimum_path_sum.go) |
 | 70 爬楼梯 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[70]climbing_stairs.go) |
 | 91 解码方法 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B91%5Ddecode_ways.go) |
+| 139 单词拆分 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B139%5Dword_break.go) |
 | 198 打家劫舍 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B198%5Dhouse_robber.go) |
 | 221 最大正方形 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B221%5Dmaximal_square.go) |
 | 279 完全平方数 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B279%5Dperfect_squares.go) |
