@@ -41,17 +41,29 @@ func canPartition(nums []int) bool {
 		return false
 	}
 	target, n = sum/2, len(nums)
-	// dp[i][j] 表示前 i 个数，是否能够和为 j
-	dp := make([][]bool, n+1)
-	for i := range dp {
-		dp[i] = make([]bool, target+1)
-		dp[i][0] = true
-	}
+	//dp := make([][]bool, n+1)
+	//for i := 0; i <= n; i++ {
+	//	dp[i] = make([]bool, target+1)
+	//	dp[i][0] = true
+	//}
+	//for i := 1; i <= n; i++ {
+	//	for j := 1; j <= target; j++ {
+	//		if j-nums[i-1] < 0 {
+	//			dp[i][j] = dp[i-1][j]
+	//		} else {
+	//			dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i-1]]
+	//		}
+	//	}
+	//}
+	//return dp[n][target]
+	// 进行空间压缩，注意对数字的遍历需要逆向
+	dp := make([]bool, target+1)
+	dp[0] = true
 	for i := 1; i <= n; i++ {
-		for j := nums[i-1]; j <= target; j++ {
-			dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i-1]]
+		for j := target; j >= nums[i-1]; j-- {
+			dp[j] = dp[j] || dp[j-nums[i-1]]
 		}
 	}
-	return dp[n][target]
+	return dp[target]
 }
 //leetcode submit region end(Prohibit modification and deletion)
