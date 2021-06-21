@@ -68,6 +68,7 @@
 | 300 最长递增子序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B300%5Dlongest_increasing_subsequence.go) |
 | 413 等差数列划分 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B413%5Darithmetic_slices.go) |
 | 416 分割等和子集 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B416%5Dpartition_equal_subset_sum.go) |
+| 474 一和零 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B474%5Dones_and_zeroes.go) |
 | 542 01 矩阵 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B542%5D01_matrix.go) |
 | 1143 最长公共子序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1143%5Dlongest_common_subsequence.go) |
 ## 每日一题
