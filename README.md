@@ -58,6 +58,7 @@
 ## 动态规划
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 72 编辑距离 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B72%5Dedit_distance.go) |
 | 64 最小路径和 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B64%5Dminimum_path_sum.go) |
 | 70 爬楼梯 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[70]climbing_stairs.go) |
 | 91 解码方法 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B91%5Ddecode_ways.go) |
