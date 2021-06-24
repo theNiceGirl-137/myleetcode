@@ -45,7 +45,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func maxProfit(prices []int) int {
+func maxProfit122(prices []int) int {
 	// 数学斜率
 	sum := 0
 	for i := 0; i < len(prices)-1; i++ {
