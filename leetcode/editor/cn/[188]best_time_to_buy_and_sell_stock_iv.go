@@ -40,7 +40,7 @@ package leetcode
 import "math"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func maxProfit(k int, prices []int) int {
+func maxProfit188(k int, prices []int) int {
 	days := len(prices)
 	if days < 2 {
 		return 0
