@@ -36,7 +36,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func rob(nums []int) int {
+func rob198(nums []int) int {
 	// 定义一个数组 dp，dp[i] 表示抢劫到第 i 个房子时可以抢劫的最大数量
 	// 对于 dp[i]，一是选择不抢这个房子，此时累计的金额为 dp[i-1]
 	// 二是选择抢这个房子，那么累计的最大金额只能是 dp[i-2]，因为如果抢第 i-1 个房子会出发警报
