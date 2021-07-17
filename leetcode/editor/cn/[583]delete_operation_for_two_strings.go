@@ -23,7 +23,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func minDistance(word1 string, word2 string) int {
+func minDistance583(word1 string, word2 string) int {
 	// 定义一个 dp 数组，其中 dp[i] 表示到位置 i 为止的子序列的性质，并不必须以 i 结尾
 	// 本题定义一个二维 dp 数组，其中 dp[i][j] 表示到第一个字符串位置 i 为止、到第二个字符串位置 j 为止，最长的公共子序列长度
 	m, n := len(word1), len(word2)

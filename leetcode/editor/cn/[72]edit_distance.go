@@ -48,7 +48,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func minDistance(word1 string, word2 string) int {
+func minDistance72(word1 string, word2 string) int {
 	// 类似于题目 1143，使用一个二维数组 dp[i][j]，表示将第一个字符串到位置 i 为止和第二个字符串到 j 为止，最多需要几步编辑
 	// 当第 i 位和第 j 位对应的字符相同时，dp[i][j] 等于 dp[i-1][j-1]
 	// 当二者对应的字符不相同时，修改的消耗是 dp[i-1][j-1]+1，插入 i 位置/删除 j 位置的消耗是 dp[i][j-1]+1，插入 j 位置/删除 i 位置的消耗是 dp[i-1][j]+1
