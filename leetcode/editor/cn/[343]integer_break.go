@@ -28,6 +28,8 @@ func integerBreak(n int) int {
 	dp[2] = 1
 	for i := 3; i <= n; i++ {
 		for j := 1; j < i; j++ {
+			// 最大的拆分成的子数和取决于目前的 dp[i] 和 当前拆分成的两个数的积
+			// 或者把 i-j 的拆分最大乘积，以 j 的变化最为迭代，不需要对 j 拆分
 			dp[i] = max343(dp[i], max343((i-j)*j, dp[i-j]*j))
 		}
 	}
