@@ -75,6 +75,7 @@
 | 309 最佳买卖股票时机含冷冻期 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B309%5Dbest_time_to_buy_and_sell_stock_with_cooldown.go) |
 | 322 零钱兑换 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B322%5Dcoin_change.go) |
 | 343 整数拆分 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B343%5Dinteger_break.go) |
+| 376 摆动序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B376%5Dwiggle_subsequence.go) |
 | 413 等差数列划分 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B413%5Darithmetic_slices.go) |
 | 416 分割等和子集 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B416%5Dpartition_equal_subset_sum.go) |
 | 474 一和零 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B474%5Dones_and_zeroes.go) |
