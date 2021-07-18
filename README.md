@@ -86,6 +86,9 @@
 | 650 只有两个键的键盘 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B650%5D2_keys_keyboard.go) |
 | 714 买卖股票的最佳时机含手续费 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B714%5Dbest_time_to_buy_and_sell_stock_with_transaction_fee.go) |
 | 1143 最长公共子序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1143%5Dlongest_common_subsequence.go) |
+## 分治法
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
