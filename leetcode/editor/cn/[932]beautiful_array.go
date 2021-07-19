@@ -37,6 +37,23 @@
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func beautifulArray(n int) []int {
-
+	if n == 1 {
+		return []int{1}
+	}
+	// 根据奇偶进行映射
+	// 1~N 的值中取出全部奇数，通过 (a+1)/2 映射得到的 1~(N+1)/2 范围的连续值
+	odds := beautifulArray((n+1)/2)
+	// 返回右侧已排序切片
+	evens := beautifulArray(n/2)
+	// 根据奇偶进行反射
+	for i, v := range odds {
+		odds[i] = 2*v-1
+	}
+	for i, v := range evens {
+		evens[i] = 2*v
+	}
+	// 将左右子问题答案进行拼接
+	sli := append(odds, evens...)
+	return sli
 }
 //leetcode submit region end(Prohibit modification and deletion)
