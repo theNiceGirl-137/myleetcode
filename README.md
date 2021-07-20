@@ -92,6 +92,9 @@
 | 241 为运算表达式设计优先级 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B241%5Ddifferent_ways_to_add_parentheses.go) |
 | 312 戳气球 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B312%5Dburst_balloons.go) |
 | 932 漂亮数组 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B932%5Dbeautiful_array.go) |
+## 数学问题
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
