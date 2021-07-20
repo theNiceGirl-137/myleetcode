@@ -45,13 +45,17 @@ func maxCoins(nums []int) int {
 	for i := 0; i < m; i++ {
 		temp[i+1] = nums[i]
 	}
+	// dp[i][j] 表示 i～j 区间（不包括 i 和 j）戳破能获得的最大值
 	dp := make([][]int, m+2)
 	for i := range dp {
 		dp[i] = make([]int, m+2)
 	}
+	// i 表示右边界，因为至少三个气球才会有区间，所以从 3 开始
 	for i := 3; i <= m+2; i++ {
+		// j 表示左边界
 		for j := 0; j < m+3-i; j++ {
 			var res int
+			// k 表示 k 左右的气球都被戳破的情况下所能获得的最大值
 			for k := j+1; k < j+i-1; k++ {
 				left := dp[j][k]
 				right := dp[k][j+i-1]
