@@ -96,6 +96,7 @@
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 204 计算质数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B204%5Dcount_primes.go) |
+| 504 七进制数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B504%5Dbase_7.go) |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
