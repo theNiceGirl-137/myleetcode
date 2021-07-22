@@ -21,6 +21,8 @@
 
 package leetcode
 
+import "math/rand"
+
 // Solution leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
@@ -48,6 +50,17 @@ func (this *Solution) GetRandom() int {
 	// 对于长度为 n 的链表的第 m 个节点，最后被采样的充要条件是它被选择，且之后的节点都没有被选择。这种情况发生的概率为
 	// 1/m × m/m+1 × m+1/m+2 × · · · × n−1/n = 1/n
 	// 因此每个点都有均等的概率被选择
+	ans := this.Head.Val
+	node := this.Head.Next
+	i := 2
+	for node != nil {
+		if rand.Int()%i == 0 {
+			ans = node.Val
+		}
+		i++
+		node = node.Next
+	}
+	return ans
 }
 
 
