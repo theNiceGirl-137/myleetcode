@@ -45,23 +45,23 @@ package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 import "math/rand"
 
-type Solution struct {
+type Solution384 struct {
 	nums []int
 }
 
 
-func Constructor(nums []int) Solution {
-	return Solution{nums: nums}
+func Constructor384(nums []int) Solution384 {
+	return Solution384{nums: nums}
 }
 
 // Reset /** Resets the array to its original configuration and return it. */
-func (this *Solution) Reset() []int {
+func (this *Solution384) Reset() []int {
 	return this.nums
 }
 
 // Shuffle 我们采用经典的 Fisher-Yates 洗牌算法，原理是通过随机交换位置来实现随机打乱，有正向和反向两种写法，且实现非常方便
 /** Returns a random shuffling of the array. */
-func (this *Solution) Shuffle() []int {
+func (this *Solution384) Shuffle() []int {
 	if len(this.nums) == 0 {
 		return []int{}
 	}
