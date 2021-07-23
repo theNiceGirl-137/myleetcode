@@ -35,11 +35,13 @@ func productExceptSelf(nums []int) []int {
 	// 乘积 = 当前数左边的乘积 * 当前数右边的乘积
 	k = 1
 	for i := 0; i < len(nums); i++ {
+		// 此时数组存储的是除去当前元素左边的元素乘积
 		output[i] = k
 		k *= nums[i]
 	}
 	k = 1
 	for i := len(nums)-1; i >= 0; i-- {
+		// 此时数组等于左边的 * 该数右边的
 		output[i] *= k
 		k *= nums[i]
 	}
