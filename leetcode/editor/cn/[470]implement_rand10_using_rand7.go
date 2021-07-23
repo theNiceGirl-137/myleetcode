@@ -50,6 +50,9 @@
 
 
 package leetcode
+
+import "math/rand"
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func rand10() int {
 	// X、Y为正整数
@@ -73,5 +76,9 @@ func rand10() int {
 			return rand21%10+1
 		}
 	}
+}
+
+func rand7() int {
+	return rand.Intn(7)
 }
 //leetcode submit region end(Prohibit modification and deletion)
