@@ -95,6 +95,7 @@
 ## 数学问题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 67 二进制求和 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B67%5Dadd_binary.go) |
 | 168 Excel 表列名称 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B168%5Dexcel_sheet_column_title.go) |
 | 172 阶乘后的零 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B172%5Dfactorial_trailing_zeroes.go) |
 | 204 计算质数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B204%5Dcount_primes.go) |
