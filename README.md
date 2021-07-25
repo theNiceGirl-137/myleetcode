@@ -99,6 +99,7 @@
 | 168 Excel 表列名称 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B168%5Dexcel_sheet_column_title.go) |
 | 169 多数元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B169%5Dmajority_element.go) |
 | 172 阶乘后的零 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B172%5Dfactorial_trailing_zeroes.go) |
+| 202 快乐数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B202%5Dhappy_number.go) |
 | 204 计算质数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B204%5Dcount_primes.go) |
 | 238 除自身以外数组的乘积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B238%5Dproduct_of_array_except_self.go) |
 | 326 3 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B326%5Dpower_of_three.go) |
