@@ -49,5 +49,22 @@ func isHappy(n int) bool {
 	// 要不经过多次计算到达一，因为一的平方还等于一，所以链条到此时进入无限循环，我们可以认为它终止于一，也可以看作是一个不动点
 	// 另一种情况是，无论怎么计算都不会到达一，但是会进入另外一个循环：
 	// 4→16→37→58→89→145→42→20→4
+	// 快慢指针
+	slow, fast := n, getSum(n)
+	for fast != 1 && slow != fast {
+		// 慢指针走一步
+		slow = getSum(slow)
+		// 快指针走两步
+		fast = getSum(getSum(fast))
+	}
+	return fast == 1
+}
+
+func getSum(n int) (sum int) {
+	for n > 0 {
+		sum += (n%10)*(n%10)
+		n /= 10
+	}
+	return sum
 }
 //leetcode submit region end(Prohibit modification and deletion)
