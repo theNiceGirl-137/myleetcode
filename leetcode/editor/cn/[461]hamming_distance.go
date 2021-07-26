@@ -37,6 +37,11 @@
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func hammingDistance(x int, y int) int {
-
+	diff, ans := x ^ y, 0
+	for diff > 0 {
+		ans += diff & 1
+		diff >>= 1
+	}
+	return ans
 }
 //leetcode submit region end(Prohibit modification and deletion)
