@@ -112,6 +112,7 @@
 ## 位运算
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 136 只出现一次的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B136%5Dsingle_number.go) |
 | 190 颠倒二进制 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B190%5Dreverse_bits.go) |
 | 461 汉明距离 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B461%5Dhamming_distance.go) |
 ## 每日一题
