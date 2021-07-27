@@ -119,6 +119,7 @@
 | 338 比特位计算 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B338%5Dcounting_bits.go) |
 | 342 4 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B342%5Dpower_of_four.go) |
 | 461 汉明距离 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B461%5Dhamming_distance.go) |
+| 693 交替位二进制数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B693%5Dbinary_number_with_alternating_bits.go) |
 ## 每日一题
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
