@@ -20,7 +20,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func singleNumber(nums []int) int {
+func singleNumber136(nums []int) int {
 	// 异或的性质
 	var ans int
 	for _, num := range nums {

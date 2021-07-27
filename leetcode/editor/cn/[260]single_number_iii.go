@@ -41,7 +41,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func singleNumber(nums []int) []int {
+func singleNumber260(nums []int) []int {
 	// a ^ a = 0
 	// ans一定不为 0，因为一定是两个不一样的数异或
 	var temp, bitIndex int
