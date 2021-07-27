@@ -114,6 +114,7 @@
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 136 只出现一次的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B136%5Dsingle_number.go) |
 | 190 颠倒二进制 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B190%5Dreverse_bits.go) |
+| 268 丢失的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B268%5Dmissing_number.go) |
 | 318 最大单词长度乘积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B318%5Dmaximum_product_of_word_lengths.go) |
 | 338 比特位计算 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B338%5Dcounting_bits.go) |
 | 342 4 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B342%5Dpower_of_four.go) |
