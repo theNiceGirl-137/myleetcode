@@ -111,18 +111,6 @@ func (this *MyQueue)reverseStack() {
 	}
 }
 
-func top(arr []int) int {
-	return arr[len(arr)-1]
-}
-
-func pop(arr []int) []int {
-	return arr[:len(arr)-1]
-}
-
-func push(arr []int, x int) []int {
-	return append(arr, x)
-}
-
 
 /**
  * Your MyQueue object will be instantiated and called as such:
