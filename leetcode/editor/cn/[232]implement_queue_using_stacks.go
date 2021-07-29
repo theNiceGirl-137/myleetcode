@@ -70,8 +70,8 @@ type MyQueue struct {
 	Out []int
 }
 
-// Constructor Initialize your data structure here.
-func Constructor() MyQueue {
+// Constructor232 Initialize your data structure here.
+func Constructor232() MyQueue {
 	in := make([]int, 0)
 	out := make([]int, 0)
 	return MyQueue{In: in, Out: out}
