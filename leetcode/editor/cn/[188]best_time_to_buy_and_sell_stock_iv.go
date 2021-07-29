@@ -60,8 +60,8 @@ func maxProfit188(k int, prices []int) int {
 		// 一次操作包括买入和卖出两种行为，对于进行买入操作时，价格尽可能低才能保证其后能卖出跟高的价格
 		// 进行卖出操作时，价格尽可能高才能获得更好的收益
 		for j := 1; j <= k; j++ {
-			buy[j] = max188(buy[j], sell[j-1]-prices[i])
-			sell[j] = max188(sell[j], buy[j]+prices[i])
+			buy[j] = max(buy[j], sell[j-1]-prices[i])
+			sell[j] = max(sell[j], buy[j]+prices[i])
 		}
 	}
 	return sell[k]
@@ -75,12 +75,5 @@ func maxProfitUnlimited(prices []int) int {
 		}
 	}
 	return profit
-}
-
-func max188(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

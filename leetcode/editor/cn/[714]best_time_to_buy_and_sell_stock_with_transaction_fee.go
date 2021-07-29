@@ -52,16 +52,9 @@ func maxProfit(prices []int, fee int) int {
 	}
 	buy, sell := math.MinInt32, 0
 	for i := 0; i < m; i++ {
-		buy = max714(buy, sell-prices[i]-fee)
-		sell = max714(sell, buy+prices[i])
+		buy = max(buy, sell-prices[i]-fee)
+		sell = max(sell, buy+prices[i])
 	}
 	return sell
-}
-
-func max714(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

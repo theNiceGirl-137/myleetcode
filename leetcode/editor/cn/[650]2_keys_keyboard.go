@@ -43,19 +43,12 @@ func minSteps(n int) int {
 		dp[i] = i
 		for j := 2; j <= h; j++ {
 			if i % j == 0 {
-				//dp[i] = min650(dp[i], dp[j]+dp[i/j])
+				//dp[i] = min(dp[i], dp[j]+dp[i/j])
 				dp[i] = dp[j]+dp[i/j]
 				break
 			}
 		}
 	}
 	return dp[n]
-}
-
-func min650(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

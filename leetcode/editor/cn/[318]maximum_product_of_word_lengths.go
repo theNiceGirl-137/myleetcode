@@ -50,20 +50,13 @@ func maxProduct(words []string) int {
 			mask |= 1 << (ch - 'a')
 		}
 		// 同一字母组合选出最长的
-		hash[mask] = max318(hash[mask], size)
+		hash[mask] = max(hash[mask], size)
 		for h_mask, h_len := range hash {
-			if mask & h_mask == 0 {
-				ans = max318(ans, hash[mask]*h_len)
+			if mask&h_mask == 0 {
+				ans = max(ans, hash[mask]*h_len)
 			}
 		}
 	}
 	return ans
-}
-
-func max318(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

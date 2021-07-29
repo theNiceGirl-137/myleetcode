@@ -41,18 +41,11 @@ func maxChunksToSorted(arr []int) int {
 	// 所以每当当前最大值等于数组位置时，假设为 p，我们可以成功完成一次分割，并且其与上一次分割位置 q 之间的值一定是 q + 1 到 p 的所有数字
 	chunks, maxCur := 0, 0
 	for i := 0; i < len(arr); i++ {
-		maxCur = max769(maxCur, arr[i])
+		maxCur = max(maxCur, arr[i])
 		if maxCur == i {
 			chunks++
 		}
 	}
 	return chunks
-}
-
-func max769(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

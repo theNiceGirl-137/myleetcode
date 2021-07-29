@@ -47,7 +47,7 @@ func rob198(nums []int) int {
 	//dp := make([]int, len(nums)+1)
 	//dp[1] = nums[0]
 	//for i := 2; i <= len(nums); i++ {
-	//	dp[i] = max198(dp[i-1], dp[i-2]+nums[i-1])
+	//	dp[i] = max(dp[i-1], dp[i-2]+nums[i-1])
 	//}
 	//return dp[len(nums)]
 	// 对空间进行压缩
@@ -60,17 +60,10 @@ func rob198(nums []int) int {
 	var cur int
 	pre2, pre1 := 0, 0
 	for i := 0; i < len(nums); i++ {
-		cur = max198(pre1, pre2+nums[i])
+		cur = max(pre1, pre2+nums[i])
 		pre2 = pre1
 		pre1 = cur
 	}
 	return cur
-}
-
-func max198(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

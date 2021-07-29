@@ -69,16 +69,9 @@ func maxSubArray(nums []int) int {
 	dp[0] = nums[0]
 	result := dp[0]
 	for i := 1; i < len(nums); i++ {
-		dp[i] = max53(dp[i-1]+nums[i], nums[i])
-		result = max53(dp[i], result)
+		dp[i] = max(dp[i-1]+nums[i], nums[i])
+		result = max(dp[i], result)
 	}
 	return result
-}
-
-func max53(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

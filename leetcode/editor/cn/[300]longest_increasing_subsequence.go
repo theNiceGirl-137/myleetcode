@@ -62,10 +62,10 @@ func lengthOfLIS(nums []int) int {
 	//for i := 0; i < len(nums); i++ {
 	//	for j := 0; j < i; j++ {
 	//		if nums[i] > nums[j] {
-	//			dp[i] = max300(dp[i], dp[j]+1)
+	//			dp[i] = max(dp[i], dp[j]+1)
 	//		}
 	//	}
-	//	maxLen = max300(dp[i], maxLen)
+	//	maxLen = max(dp[i], maxLen)
 	//}
 	//return maxLen
 	// dp[i] 存储长度为 i+1 的最长递增子序列的最后一个数字
@@ -84,13 +84,6 @@ func lengthOfLIS(nums []int) int {
 		}
 	}
 	return len(dp)
-}
-
-func max300(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 
 func lowerBound(start, end int, nums []int, target int) int {

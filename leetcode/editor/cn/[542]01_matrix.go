@@ -72,10 +72,10 @@ func updateMatrix(mat [][]int) [][]int {
 				dp[i][j] = 0
 			} else {
 				if j > 0 {
-					dp[i][j] = min542(dp[i][j], dp[i][j-1]+1)
+					dp[i][j] = min(dp[i][j], dp[i][j-1]+1)
 				}
 				if i > 0 {
-					dp[i][j] = min542(dp[i][j], dp[i-1][j]+1)
+					dp[i][j] = min(dp[i][j], dp[i-1][j]+1)
 				}
 			}
 		}
@@ -85,21 +85,14 @@ func updateMatrix(mat [][]int) [][]int {
 		for j := len(mat[0])-1; j >= 0; j-- {
 			if mat[i][j] != 0 {
 				if j < len(mat[0])-1 {
-					dp[i][j] = min542(dp[i][j], dp[i][j+1]+1)
+					dp[i][j] = min(dp[i][j], dp[i][j+1]+1)
 				}
 				if i < len(mat)-1 {
-					dp[i][j] = min542(dp[i][j], dp[i+1][j]+1)
+					dp[i][j] = min(dp[i][j], dp[i+1][j]+1)
 				}
 			}
 		}
 	}
 	return dp
-}
-
-func min542(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

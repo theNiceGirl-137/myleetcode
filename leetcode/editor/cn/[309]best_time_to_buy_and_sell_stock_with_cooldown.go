@@ -31,23 +31,16 @@ func maxProfit309(prices []int) int {
 		if i == 1 {
 			// 第 1 天持有着股票，可能是昨天买的，今天休息
 			// 也可能是昨天休息，今天买的
-			have[i] = max309(have[i-1], -prices[1])
+			have[i] = max(have[i-1], -prices[1])
 		} else {
 			// 昨天就持有股票，今天休息
 			// 前天卖了股票，今天买了股票
-			have[i] = max309(have[i-1], notHave[i-2]-prices[i])
+			have[i] = max(have[i-1], notHave[i-2]-prices[i])
 		}
 		// 昨天也没有持有，今天休息
 		// 昨天持有股票，今天卖了股票
-		notHave[i] = max309(notHave[i-1], have[i-1]+prices[i])
+		notHave[i] = max(notHave[i-1], have[i-1]+prices[i])
 	}
 	return notHave[n-1]
-}
-
-func max309(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

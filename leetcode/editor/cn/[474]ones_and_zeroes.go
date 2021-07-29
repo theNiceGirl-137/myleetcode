@@ -61,7 +61,7 @@ func findMaxForm(strs []string, m int, n int) int {
 				// 含有当前 0 1 个数的字符串子集，最多的子串个数为
 				// 一、不加入当前字符串
 				// 二、加入当前字符串
-				dp[i][j] = max474(dp[i][j], dp[i-p.count0][j-p.count1]+1)
+				dp[i][j] = max(dp[i][j], dp[i-p.count0][j-p.count1]+1)
 			}
 		}
 	}
@@ -78,12 +78,5 @@ func count(s string) pair {
 		}
 	}
 	return pair{count0: count0, count1: count1}
-}
-
-func max474(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

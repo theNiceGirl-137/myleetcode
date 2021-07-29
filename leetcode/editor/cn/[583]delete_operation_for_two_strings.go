@@ -36,17 +36,10 @@ func minDistance583(word1 string, word2 string) int {
 			if word1[i-1] == word2[j-1] {
 				dp[i][j] = dp[i-1][j-1]+1
 			} else {
-				dp[i][j] = max583(dp[i-1][j], dp[i][j-1])
+				dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 			}
 		}
 	}
 	return m+n-2*dp[m][n]
-}
-
-func max583(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

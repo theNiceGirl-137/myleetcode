@@ -69,7 +69,7 @@ func coinChange(coins []int, amount int) int {
 		for _, coin := range coins {
 			if i >= coin {
 				// 如果能使用硬币组成，选择数量最小的方式
-				dp[i] = min322(dp[i], dp[i-coin]+1)
+				dp[i] = min(dp[i], dp[i-coin]+1)
 			}
 		}
 	}
@@ -78,12 +78,5 @@ func coinChange(coins []int, amount int) int {
 		return -1
 	}
 	return dp[amount]
-}
-
-func min322(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

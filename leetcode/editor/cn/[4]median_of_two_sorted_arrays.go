@@ -86,7 +86,7 @@ func findKthNumber(nums1, nums2 []int, l1, l2, k int) float64 {
 		return float64(nums1[l1+k-1])
 	// 如果已经只剩下一个数要找，立即返回
 	case k == 1:
-		return float64(min1(nums1[l1], nums2[l2]))
+		return float64(min(nums1[l1], nums2[l2]))
 	// 如果移动指针之后的下标超出范围设为最大值
 	case l1+k/2-1 >= len(nums1):
 		m1 = math.MaxInt64
@@ -102,12 +102,5 @@ func findKthNumber(nums1, nums2 []int, l1, l2, k int) float64 {
 		return findKthNumber(nums1, nums2, l1+k/2, l2, k-k/2)
 	}
 	return findKthNumber(nums1, nums2, l1, l2+k/2, k-k/2)
-}
-
-func min1(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }
 //leetcode submit region end(Prohibit modification and deletion)

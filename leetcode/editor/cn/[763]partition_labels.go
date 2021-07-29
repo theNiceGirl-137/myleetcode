@@ -40,19 +40,12 @@ func partitionLabels(S string) []int {
 	start, end := 0, 0
 	for i := range SToArray {
 		// 一个片段结束的位置一定是结束位置最晚的某个字符的下标
-		end = max763(end, info[SToArray[i]])
+		end = max(end, info[SToArray[i]])
 		if i == end {
 			res = append(res, end-start+1)
 			start = end+1
 		}
 	}
 	return res
-}
-
-func max763(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

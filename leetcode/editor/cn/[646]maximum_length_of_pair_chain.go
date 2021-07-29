@@ -42,17 +42,10 @@ func findLongestChain(pairs [][]int) int {
 		dp[i] = 1
 		for j := 1; j < i; j++ {
 			if pairs[j-1][1] < pairs[i-1][0] {
-				dp[i] = max646(dp[i], dp[j]+1)
+				dp[i] = max(dp[i], dp[j]+1)
 			}
 		}
 	}
 	return dp[m]
-}
-
-func max646(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -59,25 +59,11 @@ func maximalSquare(matrix [][]byte) int {
 	for i := 1; i <= len(matrix); i++ {
 		for j := 1; j <= len(matrix[0]); j++ {
 			if matrix[i-1][j-1] == '1' {
-				dp[i][j] = min221(dp[i-1][j-1], min221(dp[i][j-1], dp[i-1][j]))+1
+				dp[i][j] = min(dp[i-1][j-1], min(dp[i][j-1], dp[i-1][j]))+1
 			}
-			maxSide = max221(maxSide, dp[i][j])
+			maxSide = max(maxSide, dp[i][j])
 		}
 	}
 	return maxSide*maxSide
-}
-
-func min221(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
-}
-
-func max221(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

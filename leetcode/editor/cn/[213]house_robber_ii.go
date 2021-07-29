@@ -50,30 +50,23 @@ func rob213(nums []int) int {
 		return nums[0]
 	}
 	// 环形数组意味着头尾只能选择一间
-	return max213(maxProfile(nums[1:]), maxProfile(nums[:len(nums)-1]))
+	return max(maxProfile(nums[1:]), maxProfile(nums[:len(nums)-1]))
 }
 
 func maxProfile(nums []int) int {
 	//dp := make([]int, len(nums)+1)
 	//dp[1] = nums[0]
 	//for i := 2; i <= len(nums); i++ {
-	//	dp[i] = max213(dp[i-1], dp[i-2]+nums[i-1])
+	//	dp[i] = max(dp[i-1], dp[i-2]+nums[i-1])
 	//}
 	//return dp[len(nums)]
 	var cur int
 	pre2, pre1 := 0, 0
 	for i := 0; i < len(nums); i++ {
-		cur = max213(pre1, pre2+nums[i])
+		cur = max(pre1, pre2+nums[i])
 		pre2 = pre1
 		pre1 = cur
 	}
 	return cur
-}
-
-func max213(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

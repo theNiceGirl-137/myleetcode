@@ -68,17 +68,10 @@ func minDistance72(word1 string, word2 string) int {
 				if word1[i-1] != word2[j-1] {
 					isSame = 1
 				}
-				dp[i][j] = min72(dp[i-1][j-1]+isSame, min72(dp[i-1][j]+1, dp[i][j-1]+1))
+				dp[i][j] = min(dp[i-1][j-1]+isSame, min(dp[i-1][j]+1, dp[i][j-1]+1))
 			}
 		}
 	}
 	return dp[m][n]
-}
-
-func min72(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

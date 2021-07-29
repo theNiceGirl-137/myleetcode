@@ -42,7 +42,7 @@ func nthUglyNumber(n int) int {
 			continue
 		}
 		a, b, c := dp[q2]*2, dp[q3]*3, dp[q5]*5
-		dp[i] = min264(min264(a, b), c)
+		dp[i] = min(min(a, b), c)
 		if dp[i] == a {
 			q2++
 		}
@@ -54,12 +54,5 @@ func nthUglyNumber(n int) int {
 		}
  	}
  	return dp[n]
-}
-
-func min264(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }
 //leetcode submit region end(Prohibit modification and deletion)

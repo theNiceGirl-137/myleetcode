@@ -53,7 +53,7 @@ func frequencySort(s string) string {
 	// 统计每个字符的出现次数
 	for i := range s {
 		counts[s[i]]++
-		maxCount = max451(maxCount, counts[s[i]])
+		maxCount = max(maxCount, counts[s[i]])
 	}
 	buckets := make([][]byte, maxCount+1)
 	res := make([]byte, 0)
@@ -73,12 +73,5 @@ func frequencySort(s string) string {
 		}
 	}
 	return string(res)
-}
-
-func max451(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
 //leetcode submit region end(Prohibit modification and deletion)

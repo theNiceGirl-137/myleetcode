@@ -51,7 +51,7 @@ func minPathSum(grid [][]int) int {
 	//		} else if j == 0 {
 	//			dp[i][j] = dp[i-1][j]+grid[i][j]
 	//		} else {
-	//			dp[i][j] = min64(dp[i-1][j], dp[i][j-1])+grid[i][j]
+	//			dp[i][j] = min(dp[i-1][j], dp[i][j-1])+grid[i][j]
 	//		}
 	//	}
 	//}
@@ -69,17 +69,10 @@ func minPathSum(grid [][]int) int {
 			} else if j == 0 {
 				dp[j] = dp[j]+grid[i][j]
 			} else {
-				dp[j] = min64(dp[j], dp[j-1])+grid[i][j]
+				dp[j] = min(dp[j], dp[j-1])+grid[i][j]
 			}
 		}
 	}
 	return dp[len(grid[0])-1]
-}
-
-func min64(i, j int) int {
-	if i < j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

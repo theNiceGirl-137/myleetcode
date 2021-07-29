@@ -70,21 +70,14 @@ func wiggleMaxLength(nums []int) int {
 	}
 	for i := 1; i < m; i++ {
 		if nums[i]-nums[i-1] > 0 {
-			dp[i+1][0] = max376(dp[i][1]+1, dp[i][0])
+			dp[i+1][0] = max(dp[i][1]+1, dp[i][0])
 		} else if nums[i]-nums[i-1] < 0 {
-			dp[i+1][1] = max376(dp[i][0]+1, dp[i][1])
+			dp[i+1][1] = max(dp[i][0]+1, dp[i][1])
 		} else {
 			dp[i+1][0] = dp[i][0]
 			dp[i+1][1] = dp[i][1]
 		}
 	}
-	return max376(dp[m][0], dp[m][1])
-}
-
-func max376(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
+	return max(dp[m][0], dp[m][1])
 }
 //leetcode submit region end(Prohibit modification and deletion)

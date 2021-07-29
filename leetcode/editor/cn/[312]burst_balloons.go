@@ -59,18 +59,11 @@ func maxCoins(nums []int) int {
 			for k := j+1; k < j+i-1; k++ {
 				left := dp[j][k]
 				right := dp[k][j+i-1]
-				res = max312(res, left+temp[j]*temp[k]*temp[j+i-1]+right)
+				res = max(res, left+temp[j]*temp[k]*temp[j+i-1]+right)
 			}
 			dp[j][j+i-1] = res
 		}
 	}
 	return dp[0][m+1]
-}
-
-func max312(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

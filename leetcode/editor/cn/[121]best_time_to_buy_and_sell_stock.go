@@ -43,16 +43,9 @@ import "math"
 func maxProfit121(prices []int) int {
 	sell, buy := 0, math.MinInt32
 	for i := 0; i < len(prices); i++ {
-		buy = max121(buy, -prices[i])
-		sell = max121(sell, buy+prices[i])
+		buy = max(buy, -prices[i])
+		sell = max(sell, buy+prices[i])
 	}
 	return sell
-}
-
-func max121(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)

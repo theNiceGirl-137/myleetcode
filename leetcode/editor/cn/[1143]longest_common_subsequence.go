@@ -62,17 +62,10 @@ func longestCommonSubsequence(text1 string, text2 string) int {
 			if text1[i-1] == text2[j-1] {
 				dp[i][j] = dp[i-1][j-1]+1
 			} else {
-				dp[i][j] = max1143(dp[i-1][j], dp[i][j-1])
+				dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 			}
 		}
 	}
 	return dp[m][n]
-}
-
-func max1143(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
 }
 //leetcode submit region end(Prohibit modification and deletion)
