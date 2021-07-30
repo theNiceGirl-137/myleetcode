@@ -78,16 +78,4 @@ func isValid(s string) bool {
 	}
 	return len(stack) == 0
 }
-
-func sTop(arr []byte) byte {
-	return arr[len(arr)-1]
-}
-
-func sPop(arr []byte) []byte {
-	return arr[:len(arr)-1]
-}
-
-func sPush(arr []byte, x byte) []byte {
-	return append(arr, x)
-}
 //leetcode submit region end(Prohibit modification and deletion)
