@@ -52,6 +52,7 @@ func dailyTemperatures(temperatures []int) []int {
 			indices = pop(indices)
 			ans[preIndex] = i-preIndex
 		}
+		// 存放位置，即日期
 		indices = push(indices, i)
 	}
 	return ans
