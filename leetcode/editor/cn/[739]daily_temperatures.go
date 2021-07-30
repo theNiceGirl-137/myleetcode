@@ -36,5 +36,6 @@ package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func dailyTemperatures(temperatures []int) []int {
 	// 单调栈通过维持栈内值的单调递增（递减）性，在整体 O(n) 的时间内处理需要大小比较的问题
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
