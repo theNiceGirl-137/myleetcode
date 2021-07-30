@@ -125,6 +125,7 @@
 ## 数据结构
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 20 有效的括号 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B20%5Dvalid_parentheses.go) |
 | 48 旋转图像 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B48%5Drotate_image.go) |
 | 155 最小栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B155%5Dmin_stack.go) |
 | 232 用栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B232%5Dimplement_queue_using_stacks.go) |
