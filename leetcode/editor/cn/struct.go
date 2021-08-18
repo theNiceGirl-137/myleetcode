@@ -90,12 +90,12 @@ func sink(pos int, heap []int) {
 // 通过将算法中的大于号和小于号互换，我们也可以得到一个快速获得最小值的优先队列
 // 如果我们需要在维持大小关系的同时，还需要支持查找任意值、删除任意值、维护所有数字的大小关系等操作，可以考虑使用 set 或 map 来代替优先队列
 
-func max(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
-}
+//func max(i, j int) int {
+//	if i > j {
+//		return i
+//	}
+//	return j
+//}
 
 func min(i, j int) int {
 	if i < j {
