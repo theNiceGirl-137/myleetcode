@@ -127,6 +127,7 @@
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 20 有效的括号 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B20%5Dvalid_parentheses.go) |
 | 48 旋转图像 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B48%5Drotate_image.go) |
+| 128 最长连续序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B128%5Dlongest_consecutive_sequence.go) |
 | 155 最小栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B155%5Dmin_stack.go) |
 | 218 天际线问题 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B218%5Dthe_skyline_problem.go) |
 | 232 用栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B232%5Dimplement_queue_using_stacks.go) |
