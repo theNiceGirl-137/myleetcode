@@ -61,11 +61,4 @@ func maxPoints(points [][]int) int {
 	}
 	return maxCount
 }
-
-func max(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
-}
 //leetcode submit region end(Prohibit modification and deletion)
