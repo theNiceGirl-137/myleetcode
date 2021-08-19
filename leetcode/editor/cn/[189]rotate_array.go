@@ -54,10 +54,4 @@ func rotate(nums []int, k int)  {
 	reverse(nums[:k%len(nums)])
 	reverse(nums[k%len(nums):])
 }
-
-func reverse(nums []int) {
-	for i := 0; i < len(nums)/2; i++ {
-		nums[i], nums[len(nums)-i-1] = nums[len(nums)-i-1], nums[i]
-	}
-}
 //leetcode submit region end(Prohibit modification and deletion)

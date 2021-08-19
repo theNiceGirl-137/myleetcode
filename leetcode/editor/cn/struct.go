@@ -104,3 +104,16 @@ func min(i, j int) int {
 	return j
 }
 
+func reverse(nums []int) {
+	for i := 0; i < len(nums)/2; i++ {
+		nums[i], nums[len(nums)-i-1] = nums[len(nums)-i-1], nums[i]
+	}
+}
+
+func reverseStr(s string) string {
+	r := []rune(s)
+	for i, j := 0, len(r)-1; i < j; i, j = i+1, j-1 {
+		r[i], r[j] = r[j], r[i]
+	}
+	return string(r)
+}

@@ -35,7 +35,7 @@ import "strconv"
 func addBinary(a string, b string) string {
 	var output string
 	var addBit uint8
-	a, b = reverseStr67(a), reverseStr67(b)
+	a, b = reverseStr(a), reverseStr(b)
 	aLen, bLen := len(a), len(b)
 	if len(a) <= len(b) {
 		a, b = b, a
@@ -60,14 +60,6 @@ func addBinary(a string, b string) string {
 	if addBit > 0 {
 		output += "1"
 	}
-	return reverseStr67(output)
-}
-
-func reverseStr67(str string) string {
-	r := []rune(str)
-	for i, j := 0, len(str)-1; i < j; i, j = i+1, j-1 {
-		r[i], r[j] = r[j], r[i]
-	}
-	return string(r)
+	return reverseStr(output)
 }
 //leetcode submit region end(Prohibit modification and deletion)
