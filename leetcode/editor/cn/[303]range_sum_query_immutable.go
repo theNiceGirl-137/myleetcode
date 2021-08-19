@@ -51,7 +51,7 @@ type NumArray struct {
 }
 
 
-func Constructor(nums []int) NumArray {
+func Constructor303(nums []int) NumArray {
 	// 对于一维的数组，我们可以使用前缀和来解决此类问题。先建立一个与数组 nums 长度相
 	// 同的新数组 psum，表示 nums 每个位置之前前所有数字的和
 	// 可以直接遍历一遍 nums 数组，并利用状态转移方程 psum[i] = psum[i-1] + nums[i] 完成统计
