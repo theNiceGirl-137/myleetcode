@@ -51,6 +51,7 @@
 | 130 被围绕的区域 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B130%5Dsurrounded_regions.go) |
 | 257 二叉树的所有路径 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B257%5Dbinary_tree_paths.go) |
 | 310 最小高度树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B310%5Dminimum_height_trees.go) |
+| 332 重新安排行程 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B332%5Dreconstruct_itinerary.go) |
 | 417 太平洋大西洋水流问题 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B417%5Dpacific_atlantic_water_flow.go) |
 | 547 省份数量 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B547%5Dnumber_of_provinces.go) |
 | 695 岛屿的最大面积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B695%5Dmax_area_of_island.go) |
