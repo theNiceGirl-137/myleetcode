@@ -37,7 +37,7 @@ type Solution struct {
 
 // Constructor
 // @Param head The linked list's head.
-func Constructor(head *ListNode) Solution {
+func Constructor382(head *ListNode) Solution {
 	return Solution{
 		Head: head,
 	}
