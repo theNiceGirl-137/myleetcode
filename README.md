@@ -146,6 +146,7 @@
 | 128 最长连续序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B128%5Dlongest_consecutive_sequence.go) |
 | 149 直线上最多的点数 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B149%5Dmax_points_on_a_line.go) |
 | 155 最小栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B155%5Dmin_stack.go) |
+| 217 存在重复元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B217%5Dcontains_duplicate.go) |
 | 218 天际线问题 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B218%5Dthe_skyline_problem.go) |
 | 225 用队列实现栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B225%5Dimplement_stack_using_queues.go) |
 | 232 用栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B232%5Dimplement_queue_using_stacks.go) |
