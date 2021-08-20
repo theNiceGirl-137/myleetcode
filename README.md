@@ -139,6 +139,7 @@
 | 304 二维区域和搜索-矩阵不可变 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B304%5Drange_sum_query_2d_immutable.go) |
 | 448 找到所有数组中消失的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B448%5Dfind_all_numbers_disappeared_in_an_array.go) |
 | 560 和为 k 的子数组 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B560%5Dsubarray_sum_equals_k.go) |
+| 566 重塑矩阵 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B566%5Dreshape_the_matrix.go) |
 | 739 每日温度 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B739%5Ddaily_temperatures.go) |
 | 769 最多能完成排序的块 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B769%5Dmax_chunks_to_make_sorted.go) |
 ## 每日一题
