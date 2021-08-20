@@ -23,6 +23,7 @@
 | 141 环形链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[141]linked_list_cycle.go) |
 | 142 环形链表 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B142%5Dlinked_list_cycle_ii.go) |
 | 167 两数之和 II - 输入有序数组 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B167%5Dtwo_sum_ii_input_array_is_sorted.go) |
+| 287 寻找重复数 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B287%5Dfind_the_duplicate_number.go) |
 | 350 两个数组的交集 II | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[350]intersection_of_two_arrays_ii.go) |
 | 524 通过删除字母匹配到字典最长单词 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B524%5Dlongest_word_in_dictionary_through_deleting.go) |
 | 633 平方数之和 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B633%5Dsum_of_square_numbers.go) |
