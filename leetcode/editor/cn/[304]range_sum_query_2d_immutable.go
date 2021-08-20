@@ -59,7 +59,7 @@ type NumMatrix struct {
 }
 
 
-func Constructor(matrix [][]int) NumMatrix {
+func Constructor304(matrix [][]int) NumMatrix {
 	// 我们可以用动态规划来计算 integral 矩阵：
 	// integral[i][j] = matrix[i-1][j-1] + integral[i-1][j] + integral[i][j-1] - integral[i-1][j-1]
 	// 即当前坐标的数字 + 上面长方形的数字和 + 左边长方形的数字和 - 上面长方形和左边长方形重合面积（即左上一格的长方形）中的数字和
