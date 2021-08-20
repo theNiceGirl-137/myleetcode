@@ -132,6 +132,7 @@
 | 149 直线上最多的点数 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B149%5Dmax_points_on_a_line.go) |
 | 155 最小栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B155%5Dmin_stack.go) |
 | 218 天际线问题 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B218%5Dthe_skyline_problem.go) |
+| 225 用队列实现栈 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B225%5Dimplement_stack_using_queues.go) |
 | 232 用栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B232%5Dimplement_queue_using_stacks.go) |
 | 239 滑动窗口最大值 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B239%5Dsliding_window_maximum.go) |
 | 240 搜索二维矩阵 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B240%5Dsearch_a_2d_matrix_ii.go) |
