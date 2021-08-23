@@ -63,7 +63,7 @@ type MyStack struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor() (s MyStack) {
+func Constructor225() (s MyStack) {
 	return
 }
 
