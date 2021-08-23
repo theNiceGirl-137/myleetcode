@@ -46,17 +46,17 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-type NumArray struct {
+type NumArray303 struct {
 	psum []int
 }
 
 
-func Constructor303(nums []int) NumArray {
+func Constructor303(nums []int) NumArray303 {
 	// 对于一维的数组，我们可以使用前缀和来解决此类问题。先建立一个与数组 nums 长度相
 	// 同的新数组 psum，表示 nums 每个位置之前前所有数字的和
 	// 可以直接遍历一遍 nums 数组，并利用状态转移方程 psum[i] = psum[i-1] + nums[i] 完成统计
 	// 如果我们需要获得位置 i 和 j 之间的数字和，只需计算 psum[j+1] - psum[i] 即可
-	numArray := NumArray{
+	numArray := NumArray303{
 		psum: make([]int, len(nums)+1),
 	}
 	numArray.psum[0] = 0
@@ -67,7 +67,7 @@ func Constructor303(nums []int) NumArray {
 }
 
 
-func (this *NumArray) SumRange(left int, right int) int {
+func (this *NumArray303) SumRange(left int, right int) int {
 	return this.psum[right+1]-this.psum[left]
 }
 
