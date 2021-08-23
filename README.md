@@ -164,6 +164,7 @@
 | 697 数组的度 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B697%5Ddegree_of_an_array.go) |
 | 739 每日温度 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B739%5Ddaily_temperatures.go) |
 | 769 最多能完成排序的块 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B769%5Dmax_chunks_to_make_sorted.go) |
+| 870 优势洗牌 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B870%5Dadvantage_shuffle.go) |
 ## 字符串
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
