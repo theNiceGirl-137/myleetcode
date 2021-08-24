@@ -171,6 +171,7 @@
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 6 Z 字型变换 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B6%5Dzigzag_conversion.go) |
 | 14 最长公共前缀 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B14%5Dlongest_common_prefix.go) |
+| 242 有效的字母异味词 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B242%5Dvalid_anagram.go) |
 ## 树
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
