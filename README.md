@@ -155,6 +155,7 @@
 | 240 搜索二维矩阵 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B240%5Dsearch_a_2d_matrix_ii.go) |
 | 303 区域和搜索-数组不可变 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B303%5Drange_sum_query_immutable.go) |
 | 304 二维区域和搜索-矩阵不可变 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B304%5Drange_sum_query_2d_immutable.go) |
+| 307 区域和搜索-数组可修改 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B307%5Drange_sum_query_mutable.go) |
 | 313 超级丑数 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B313%5Dsuper_ugly_number.go) |
 | 448 找到所有数组中消失的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B448%5Dfind_all_numbers_disappeared_in_an_array.go) |
 | 503 下一个更大的元素 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B503%5Dnext_greater_element_ii.go) |
