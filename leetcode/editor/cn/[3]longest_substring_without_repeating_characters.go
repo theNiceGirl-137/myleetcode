@@ -48,10 +48,12 @@
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
 func lengthOfLongestSubstring(s string) int {
+	// 滑动窗口，本质上其实是队列
 	if len(s) == 0 {
 		return 0
 	}
 	var left, right, ans int
+	// 记录出现的位置
 	m := make(map[byte]int)
 	for right < len(s) {
 		//if _, ok := m[s[right]]; !ok {
