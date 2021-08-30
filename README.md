@@ -69,6 +69,7 @@
 ## 动态规划
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 5 最长回文子串 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B5%5Dlongest_palindromic_substring.go) |
 | 10 正则表达式匹配 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B10%5Dregular_expression_matching.go) |
 | 53 最大子序和 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B53%5Dmaximum_subarray.go) |
 | 72 编辑距离 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B72%5Dedit_distance.go) |
