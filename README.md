@@ -169,6 +169,7 @@
 ## 字符串
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 3 无重复字符的最长子串 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B3%5Dlongest_substring_without_repeating_characters.go) |
 | 6 Z 字型变换 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B6%5Dzigzag_conversion.go) |
 | 14 最长公共前缀 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B14%5Dlongest_common_prefix.go) |
 | 28 实现 strStr() | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B28%5Dimplement_strstr.go) |
