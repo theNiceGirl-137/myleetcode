@@ -22,7 +22,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func longestPalindrome(s string) int {
+func longestPalindrome409(s string) int {
 	var count int
 	mapper := make(map[uint8]int)
 	for i := 0; i < len(s); i++ {
