@@ -186,6 +186,7 @@
 | 24 两两交换链表中的节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B24%5Dswap_nodes_in_pairs.go) |
 | 160 相交链表 | Easy |  [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B160%5Dintersection_of_two_linked_lists.go) |
 | 206 反转链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B206%5Dreverse_linked_list.go) |
+| 234 回文链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B234%5Dpalindrome_linked_list.go) |
 ## 树
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
