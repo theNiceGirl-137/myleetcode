@@ -42,10 +42,34 @@ package leetcode
  */
 func isPalindrome(head *ListNode) bool {
 	// 先使用快慢指针找到链表中点，再把链表切成两半；然后把后半段翻转；最后比较两半是否相等
-
+	if head == nil || head.Next == nil {
+		return true
+	}
+	slow, fast := head, head
+	for fast.Next != nil && fast.Next.Next != nil {
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+	slow.Next = reverseList(slow.Next)
+	slow = slow.Next
+	for slow != nil {
+		if head.Val != slow.Val {
+			return false
+		}
+		head = head.Next
+		slow = slow.Next
+	}
+	return true
 }
 
 func reverseList(head *ListNode) *ListNode {
-
+	var prev, next *ListNode
+	for head != nil {
+		next = head.Next
+		head.Next = prev
+		prev = head
+		head = next
+	}
+	return prev
 }
 //leetcode submit region end(Prohibit modification and deletion)
