@@ -180,6 +180,10 @@
 | 409 最长回文串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B409%5Dlongest_palindrome.go) |
 | 647 回文子串 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B647%5Dpalindromic_substrings.go) |
 | 696 计数二进制字符串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B696%5Dcount_binary_substrings.go) |
+## 链表
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 206 反转链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B206%5Dreverse_linked_list.go) |
 ## 树
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
