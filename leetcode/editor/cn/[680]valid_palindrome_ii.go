@@ -32,7 +32,7 @@ func validPalindrome(s string) bool {
 		if s[l] != s[r] {
 			// 右边的字符向右移动一位，左边的字符向左移动一位，相当于移除左边或者右边的一个字符
 			// 区间左闭右开
-			return isPalindrome(s[l:r]) || isPalindrome(s[l+1:r+1])
+			return isPalindrome680(s[l:r]) || isPalindrome680(s[l+1:r+1])
 		}
 		l++
 		r--
@@ -40,7 +40,7 @@ func validPalindrome(s string) bool {
 	return true
 }
 
-func isPalindrome(s string) bool {
+func isPalindrome680(s string) bool {
 	l, r := 0, len(s)-1
 	for l < r {
 		if s[l] != s[r] {
