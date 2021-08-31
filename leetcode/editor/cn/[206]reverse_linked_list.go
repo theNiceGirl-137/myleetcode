@@ -50,7 +50,7 @@ package leetcode
  *     Next *ListNode
  * }
  */
-func reverseList(head *ListNode) *ListNode {
+func reverseList206(head *ListNode) *ListNode {
 	var prev, next *ListNode
 	for head != nil {
 		next = head.Next

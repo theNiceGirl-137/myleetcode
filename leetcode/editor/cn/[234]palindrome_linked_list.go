@@ -41,6 +41,11 @@ package leetcode
  * }
  */
 func isPalindrome(head *ListNode) bool {
+	// 先使用快慢指针找到链表中点，再把链表切成两半；然后把后半段翻转；最后比较两半是否相等
+
+}
+
+func reverseList(head *ListNode) *ListNode {
 
 }
 //leetcode submit region end(Prohibit modification and deletion)
