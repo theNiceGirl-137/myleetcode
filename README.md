@@ -183,6 +183,7 @@
 ## 链表
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 24 两两交换链表中的节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B24%5Dswap_nodes_in_pairs.go) |
 | 206 反转链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B206%5Dreverse_linked_list.go) |
 ## 树
 | 题目                               | 难度   | 解答                                                         |
