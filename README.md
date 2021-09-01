@@ -193,6 +193,7 @@
 ## 树
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 104 二叉树的最大深度 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B104%5Dmaximum_depth_of_binary_tree.go) |
 | 106 从中序与后序遍历序列构造二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[106]construct_binary_tree_from_inorder_and_postorder_traversal.go) |
 | 235 二叉搜索树的最近公共祖先 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[235]lowest_common_ancestor_of_a_binary_search_tree.go) |
 | 501 二叉搜索树中的众数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[501]find_mode_in_binary_search_tree.go) |
