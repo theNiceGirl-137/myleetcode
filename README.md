@@ -185,6 +185,7 @@
 | 19 删除链表的倒数第 N 个结点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B19%5Dremove_nth_node_from_end_of_list.go) |
 | 24 两两交换链表中的节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B24%5Dswap_nodes_in_pairs.go) |
 | 83 删除排序链表中的重复元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B83%5Dremove_duplicates_from_sorted_list.go) |
+| 148 排序链表 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B148%5Dsort_list.go) |
 | 160 相交链表 | Easy |  [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B160%5Dintersection_of_two_linked_lists.go) |
 | 206 反转链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B206%5Dreverse_linked_list.go) |
 | 234 回文链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B234%5Dpalindrome_linked_list.go) |
