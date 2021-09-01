@@ -15,7 +15,6 @@
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 15 三数之和 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B15%5D3sum.go) |
-| 19 删除链表的倒数第 N 个结点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B19%5Dremove_nth_node_from_end_of_list.go) |
 | 26 删除有序数组中的重复项 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[26]remove_duplicates_from_sorted_array.go) |
 | 27 移除元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[27]remove_element.go) |
 | 76 最小覆盖子串 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B76%5Dminimum_window_substring.go) |
@@ -183,6 +182,7 @@
 ## 链表
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 19 删除链表的倒数第 N 个结点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B19%5Dremove_nth_node_from_end_of_list.go) |
 | 24 两两交换链表中的节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B24%5Dswap_nodes_in_pairs.go) |
 | 83 删除排序链表中的重复元素 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B83%5Dremove_duplicates_from_sorted_list.go) |
 | 160 相交链表 | Easy |  [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B160%5Dintersection_of_two_linked_lists.go) |
