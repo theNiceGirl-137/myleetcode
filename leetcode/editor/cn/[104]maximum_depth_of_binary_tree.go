@@ -33,11 +33,4 @@ func maxDepth(root *TreeNode) int {
 	}
 	return 0
 }
-
-func max(i, j int) int {
-	if i > j {
-		return i
-	}
-	return j
-}
 //leetcode submit region end(Prohibit modification and deletion)
