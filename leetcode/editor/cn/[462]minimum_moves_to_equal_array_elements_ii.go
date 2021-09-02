@@ -33,11 +33,4 @@ func minMoves2(nums []int) int {
 	}
 	return ans
 }
-
-func abs(i int) int {
-	if i < 0 {
-		return -i
-	}
-	return i
-}
 //leetcode submit region end(Prohibit modification and deletion)

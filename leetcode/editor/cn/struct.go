@@ -104,6 +104,13 @@ func min(i, j int) int {
 	return j
 }
 
+func abs(i int) int {
+	if i < 0 {
+		return -i
+	}
+	return i
+}
+
 func reverse(nums []int) {
 	for i := 0; i < len(nums)/2; i++ {
 		nums[i], nums[len(nums)-i-1] = nums[len(nums)-i-1], nums[i]
