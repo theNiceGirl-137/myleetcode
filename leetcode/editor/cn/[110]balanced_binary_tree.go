@@ -54,14 +54,14 @@ func isBalanced(root *TreeNode) bool {
 	// 解法类似于求树的最大深度，但有两个不同的地方：一是我们需要先处理子树的深度再进行
 	// 比较，二是如果我们在处理子树时发现其已经不平衡了，则可以返回一个-1，使得所有其长辈节
 	// 点可以避免多余的判断
-	return helper(root) != -1
+	return helper110(root) != -1
 }
 
-func helper(root *TreeNode) int {
+func helper110(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	left, right := helper(root.Left), helper(root.Right)
+	left, right := helper110(root.Left), helper110(root.Right)
 	if left == -1 || right == -1 || abs(left-right) > 1 {
 		return -1
 	}
