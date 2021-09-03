@@ -52,7 +52,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func pathSum(root *TreeNode, targetSum int) [][]int {
+func pathSum113(root *TreeNode, targetSum int) [][]int {
 	result := make([][]int, 0)
 	path := make([]int, 0)
 	dfs113(root, targetSum, path, &result)
