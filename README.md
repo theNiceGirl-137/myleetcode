@@ -193,6 +193,7 @@
 ## 树
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 101 对称二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B101%5Dsymmetric_tree.go) |
 | 104 二叉树的最大深度 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B104%5Dmaximum_depth_of_binary_tree.go) |
 | 106 从中序与后序遍历序列构造二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[106]construct_binary_tree_from_inorder_and_postorder_traversal.go) |
 | 110 平衡二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B110%5Dbalanced_binary_tree.go) |
