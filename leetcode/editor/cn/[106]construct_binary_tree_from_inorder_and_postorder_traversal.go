@@ -30,7 +30,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func buildTree(inorder []int, postorder []int) *TreeNode {
+func buildTree106(inorder []int, postorder []int) *TreeNode {
 	// 后序遍历的结果的最后一位是二叉树的根
 	// 跟树有关的题目可以考虑使用递归
 	if len(inorder) == 0 || len(postorder) == 0 {
@@ -47,8 +47,8 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 	// 后序遍历根据中序遍历确定的根节点位置判断左子树节点个数（后序 左 右 中）
 	return &TreeNode {
 		Val: rootVal,
-		Left: buildTree(inorder[:rootLoc], postorder[:rootLoc]),
-		Right: buildTree(inorder[rootLoc+1:], postorder[rootLoc:len(postorder)-1]),
+		Left: buildTree106(inorder[:rootLoc], postorder[:rootLoc]),
+		Right: buildTree106(inorder[rootLoc+1:], postorder[rootLoc:len(postorder)-1]),
 	}
 }
 //leetcode submit region end(Prohibit modification and deletion)
