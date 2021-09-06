@@ -56,6 +56,7 @@ func isSubtree(root *TreeNode, subRoot *TreeNode) bool {
 	return isSubtreeHelper(root, subRoot) || isSubtree(root.Left, subRoot) || isSubtree(root.Right, subRoot)
 }
 
+// 辅函数
 func isSubtreeHelper(root, subRoot *TreeNode) bool {
 	if root == nil && subRoot == nil {
 		return true
