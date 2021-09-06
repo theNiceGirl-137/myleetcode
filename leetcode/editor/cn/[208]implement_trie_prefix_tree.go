@@ -54,7 +54,7 @@ type Trie struct {
 
 
 /** Initialize your data structure here. */
-func Constructor() Trie {
+func Constructor208() Trie {
 	return Trie{}
 }
 
@@ -67,8 +67,10 @@ func (this *Trie) Insert(word string)  {
 		if node.children[char] == nil {
 			node.children[char] = &Trie{}
 		}
+		// 一层一层进入子节点
 		node = node.children[char]
 	}
+	// 是否是最终的子节点
 	node.isLeaf = true
 }
 
