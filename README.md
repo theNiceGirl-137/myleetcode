@@ -205,7 +205,7 @@
 | 235 二叉搜索树的最近公共祖先 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[235]lowest_common_ancestor_of_a_binary_search_tree.go) |
 | 437 路径综合 III | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B437%5Dpath_sum_iii.go) |
 | 501 二叉搜索树中的众数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[501]find_mode_in_binary_search_tree.go) |
-| 527 |||
+| 527 另一棵树的子树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B572%5Dsubtree_of_another_tree.go) |
 | 543 二叉树的直径 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B543%5Ddiameter_of_binary_tree.go) |
 | 617 合并二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B617%5Dmerge_two_binary_trees.go) |
 | 637 二叉树的层平均值 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B637%5Daverage_of_levels_in_binary_tree.go) |
