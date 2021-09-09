@@ -61,28 +61,28 @@ func averageOfLevels(root *TreeNode) []float64 {
 	return ans
 }
 
-type queue []*TreeNode
+type queue637 []*TreeNode
 
-func (this *queue)push(x *TreeNode) {
+func (this *queue637)push(x *TreeNode) {
 	*this = append(*this, x)
 }
 
-func (this *queue)pop() {
+func (this *queue637)pop() {
 	*this = (*this)[1:]
 }
 
-func (this *queue)empty() bool {
+func (this *queue637)empty() bool {
 	if this.size() == 0 {
 		return true
 	}
 	return false
 }
 
-func (this *queue)size() int {
+func (this *queue637)size() int {
 	return len(*this)
 }
 
-func (this *queue)front() *TreeNode {
+func (this *queue637)front() *TreeNode {
 	return (*this)[0]
 }
 //leetcode submit region end(Prohibit modification and deletion)
