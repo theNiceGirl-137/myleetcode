@@ -205,6 +205,7 @@
 | 208 实现 Tire(前缀树) | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B208%5Dimplement_trie_prefix_tree.go) |
 | 226 翻转二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B226%5Dinvert_binary_tree.go) |
 | 235 二叉搜索树的最近公共祖先 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[235]lowest_common_ancestor_of_a_binary_search_tree.go) |
+| 236 二叉树的最近公共祖先 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B236%5Dlowest_common_ancestor_of_a_binary_tree.go) |
 | 404 左叶子之和 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B404%5Dsum_of_left_leaves.go) |
 | 437 路径综合 III | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B437%5Dpath_sum_iii.go) |
 | 501 二叉搜索树中的众数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[501]find_mode_in_binary_search_tree.go) |
