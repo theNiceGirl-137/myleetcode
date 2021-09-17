@@ -44,7 +44,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor235(root, p, q *TreeNode) *TreeNode {
 	// 递归
 	// 如果 p q 的值都比 root 小，说明祖先一定在左子树
 	// 如果 p q 的值都比 root 大，说明祖先一定在右子树
