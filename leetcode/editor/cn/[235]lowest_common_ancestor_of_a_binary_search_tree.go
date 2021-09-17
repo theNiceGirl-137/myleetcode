@@ -51,9 +51,9 @@ func lowestCommonAncestor235(root, p, q *TreeNode) *TreeNode {
 	// 如果 p q 的值其中一个等于 root，说明祖先一定就是当前 root
 	// 如果 p q 的值在 root 两边，说明祖先一定就是当前 root
 	if p.Val < root.Val && q.Val < root.Val {
-		return lowestCommonAncestor(root.Left, p, q)
+		return lowestCommonAncestor235(root.Left, p, q)
 	} else if p.Val > root.Val && q.Val > root.Val {
-		return lowestCommonAncestor(root.Right, p, q)
+		return lowestCommonAncestor235(root.Right, p, q)
 	} else {
 		return root
 	}
