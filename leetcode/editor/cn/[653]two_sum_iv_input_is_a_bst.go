@@ -61,26 +61,28 @@ package leetcode
  * }
  */
 func findTarget(root *TreeNode, k int) bool {
-	if root == nil {
+	if root == nil || (root.Left == nil && root.Right == nil) {
 		return false
 	}
-	if root.Left == nil && root.Right == nil {
-		return false
-	}
-	nums := make(map[int]bool)
+	nums := make([]int, 0)
 	var getNums func(t *TreeNode)
 	getNums = func(t *TreeNode) {
 		if t == nil {
 			return
 		}
-		nums[t.Val] = true
 		getNums(t.Left)
+		nums = append(nums, t.Val)
 		getNums(t.Right)
 	}
 	getNums(root)
-	for num, _ := range nums {
-		if nums[k-num] == true && k-num != num {
+	l, r  := 0, len(nums)-1
+	for l < r {
+		if nums[l]+nums[r] == k {
 			return true
+		} else if nums[l]+nums[r] < k {
+			l++
+		} else {
+			r--
 		}
 	}
 	return false
