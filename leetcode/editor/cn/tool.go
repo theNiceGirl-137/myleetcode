@@ -59,7 +59,3 @@ func sPop(arr []byte) []byte {
 	return arr[:len(arr)-1]
 }
 
-func sPush(arr []byte, x byte) []byte {
-	return append(arr, x)
-}
-
