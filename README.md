@@ -209,6 +209,7 @@
 | 236 二叉树的最近公共祖先 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B236%5Dlowest_common_ancestor_of_a_binary_tree.go) |
 | 404 左叶子之和 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B404%5Dsum_of_left_leaves.go) |
 | 437 路径综合 III | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B437%5Dpath_sum_iii.go) |
+| 450 删除二叉搜索树中的节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B450%5Ddelete_node_in_a_bst.go) |
 | 501 二叉搜索树中的众数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[501]find_mode_in_binary_search_tree.go) |
 | 513 找树左下角的值 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B513%5Dfind_bottom_left_tree_value.go) |
 | 527 另一棵树的子树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B572%5Dsubtree_of_another_tree.go) |
