@@ -36,6 +36,25 @@ func sPush(arr []byte, x byte) []byte {
 	return append(arr, x)
 }
 
+// Queue
+type queue []int
+
+func (this *queue)push(x int) {
+	*this = append(*this, x)
+}
+
+func (this *queue)pop() {
+	*this = (*this)[1:]
+}
+
+func (this *queue)empty() bool {
+	return len(*this) == 0
+}
+
+func (this *queue)front() int {
+	return (*this)[0]
+}
+
 // Heap
 // 优先队列(priority queue)可以在 O(1) 时间内获得最大值，并且可以在 O(log n) 时间内取出最大值或插入任意值
 // 优先队列常常用堆(heap)来实现，堆是一个完全二叉树，其每个节点的值总是大于等于子节点的值

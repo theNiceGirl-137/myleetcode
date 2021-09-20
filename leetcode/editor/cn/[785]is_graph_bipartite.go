@@ -55,7 +55,7 @@ func isBipartite(graph [][]int) bool {
 		return true
 	}
 	color := make([]int, n)
-	q := make(queue785, 0)
+	q := make(queue, 0)
 	for i := 0; i < n; i++ {
 		if color[i] == 0 {
 			q.push(i)
@@ -79,23 +79,5 @@ func isBipartite(graph [][]int) bool {
 		}
 	}
 	return true
-}
-
-type queue785 []int
-
-func (this *queue785)push(x int) {
-	*this = append(*this, x)
-}
-
-func (this *queue785)pop() {
-	*this = (*this)[1:]
-}
-
-func (this *queue785)empty() bool {
-	return len(*this) == 0
-}
-
-func (this *queue785)front() int {
-	return (*this)[0]
 }
 //leetcode submit region end(Prohibit modification and deletion)
