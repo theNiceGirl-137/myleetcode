@@ -12,28 +12,36 @@ type TreeNode struct {
 }
 
 // Stack
-func top(arr []int) int {
-	return arr[len(arr)-1]
+type stack []int
+
+func (this *stack)top() int {
+	return (*this)[len(*this)-1]
 }
 
-func pop(arr []int) []int {
-	return arr[:len(arr)-1]
+func (this *stack)pop() {
+	*this = (*this)[:len(*this)-1]
 }
 
-func push(arr []int, x int) []int {
-	return append(arr, x)
+func (this *stack)push(x int) {
+	*this = append(*this, x)
 }
 
-func sTop(arr []byte) byte {
-	return arr[len(arr)-1]
+type treeStack []*TreeNode
+
+func (this *treeStack)push(x *TreeNode) {
+	*this = append(*this, x)
 }
 
-func sPop(arr []byte) []byte {
-	return arr[:len(arr)-1]
+func (this *treeStack)pop() {
+	*this = (*this)[:len(*this)-1]
 }
 
-func sPush(arr []byte, x byte) []byte {
-	return append(arr, x)
+func (this *treeStack)empty() bool {
+	return len(*this) == 0
+}
+
+func (this *treeStack)top() *TreeNode {
+	return (*this)[len(*this)-1]
 }
 
 // Queue

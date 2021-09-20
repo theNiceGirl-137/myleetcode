@@ -67,7 +67,7 @@ func preorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return ret
 	}
-	s := make(stack, 0)
+	s := make(treeStack, 0)
 	s.push(root)
 	for !s.empty() {
 		node := s.top()
@@ -82,23 +82,5 @@ func preorderTraversal(root *TreeNode) []int {
 		}
 	}
 	return ret
-}
-
-type stack []*TreeNode
-
-func (this *stack)push(x *TreeNode) {
-	*this = append(*this, x)
-}
-
-func (this *stack)pop() {
-	*this = (*this)[:len(*this)-1]
-}
-
-func (this *stack)empty() bool {
-	return len(*this) == 0
-}
-
-func (this *stack)top() *TreeNode {
-	return (*this)[len(*this)-1]
 }
 //leetcode submit region end(Prohibit modification and deletion)
