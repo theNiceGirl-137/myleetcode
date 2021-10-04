@@ -230,3 +230,7 @@
 | 210 课程表 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B210%5Dcourse_schedule_ii.go) |
 | 785 判断二分图 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B785%5Dis_graph_bipartite.go) |
 | 882 细分图中的可到达结点 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B882%5Dreachable_nodes_in_subdivided_graph.go) |
+## 更加复杂的数据结构
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
