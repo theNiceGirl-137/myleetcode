@@ -59,7 +59,7 @@ type RandomizedSet struct {
 }
 
 
-func Constructor() RandomizedSet {
+func Constructor380() RandomizedSet {
 	return RandomizedSet{m :make(map[int]int), s: make([]int, 0)}
 }
 
