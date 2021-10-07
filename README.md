@@ -233,4 +233,5 @@
 ## 更加复杂的数据结构
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 146 LRU 缓存机制 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B146%5Dlru_cache.go) |
 | 684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
