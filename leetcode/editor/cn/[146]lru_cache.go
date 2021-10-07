@@ -67,7 +67,7 @@ type dLinkedNode struct {
 	next, prev *dLinkedNode
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor146(capacity int) LRUCache {
 	l := LRUCache{
 		capacity: capacity,
 		cache: map[int]*dLinkedNode{},
