@@ -234,4 +234,5 @@
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 146 LRU 缓存机制 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B146%5Dlru_cache.go) |
-| 684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
+| 380 O(1) 时间插入、删除和获取随机元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B380%5Dinsert_delete_getrandom_o1.go) |
+|684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
