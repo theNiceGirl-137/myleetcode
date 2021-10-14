@@ -50,10 +50,10 @@ func buildTree105(preorder []int, inorder []int) *TreeNode {
 	for i := 0; i < len(inorder); i++ {
 		hash[inorder[i]] = i
 	}
-	return buildTreeHelper(hash, preorder, 0, len(preorder)-1, 0)
+	return buildTreeHelper105(hash, preorder, 0, len(preorder)-1, 0)
 }
 
-func buildTreeHelper(hash map[int]int, preorder []int, s0, e0, s1 int) *TreeNode {
+func buildTreeHelper105(hash map[int]int, preorder []int, s0, e0, s1 int) *TreeNode {
 	if s0 > e0 {
 		return nil
 	}
@@ -61,8 +61,8 @@ func buildTreeHelper(hash map[int]int, preorder []int, s0, e0, s1 int) *TreeNode
 	index := hash[mid]
 	leftLen := index-s0-1
 	node := &TreeNode{Val: mid}
-	node.Left = buildTreeHelper(hash, preorder, s0, index-1, s1+1)
-	node.Right = buildTreeHelper(hash, preorder, index+1, e0, s1+2+leftLen)
+	node.Left = buildTreeHelper105(hash, preorder, s0, index-1, s1+1)
+	node.Right = buildTreeHelper105(hash, preorder, index+1, e0, s1+2+leftLen)
 	return node
 }
 //leetcode submit region end(Prohibit modification and deletion)
