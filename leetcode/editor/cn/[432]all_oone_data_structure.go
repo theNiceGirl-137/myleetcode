@@ -26,7 +26,7 @@ type AllOne struct {
 	lv *list
 }
 
-func Constructor() AllOne {
+func Constructor432() AllOne {
 	return AllOne{
 		mkv: make(map[string]int),
 		mvk: make(map[int]map[string]bool),
