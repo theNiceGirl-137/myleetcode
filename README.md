@@ -243,3 +243,4 @@
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 03 数组中的重复数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2003%5Dshu_zu_zhong_zhong_fu_de_shu_zi_lcof.go) |
+| 04 二维数组中的查找 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2004%5Der_wei_shu_zu_zhong_de_cha_zhao_lcof.go) |
