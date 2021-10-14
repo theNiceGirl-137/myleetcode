@@ -238,3 +238,8 @@
 | 380 O(1) 时间插入、删除和获取随机元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B380%5Dinsert_delete_getrandom_o1.go) |
 | 432 全 O(1) 的数据结构 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B432%5Dall_oone_data_structure.go) |
 | 684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
+
+## 剑指 Offer
+| 题目                               | 难度   | 解答                                                         |
+| ---------------------------------- | ------ | ------------------------------------------------------------ |
+| 03 数组中的重复数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2003%5Dshu_zu_zhong_zhong_fu_de_shu_zi_lcof.go) |
