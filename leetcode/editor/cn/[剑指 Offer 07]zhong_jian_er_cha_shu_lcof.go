@@ -41,7 +41,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func buildTree(preorder []int, inorder []int) *TreeNode {
+func buildTreeOffer07(preorder []int, inorder []int) *TreeNode {
 	if len(preorder) == 0 || len(inorder) == 0 {
 		return nil
 	}
@@ -49,10 +49,10 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	for i := 0; i < len(inorder); i++ {
 		inorderIndex[inorder[i]] = i
 	}
-	return buildTreeHelper(inorderIndex, preorder, 0, 0, len(preorder)-1)
+	return buildTreeHelperOffer07(inorderIndex, preorder, 0, 0, len(preorder)-1)
 }
 
-func buildTreeHelper(inorderIndex map[int]int, preorder []int, preRootIndex, leftSide, rightSide int) *TreeNode {
+func buildTreeHelperOffer07(inorderIndex map[int]int, preorder []int, preRootIndex, leftSide, rightSide int) *TreeNode {
 	if leftSide > rightSide {
 		return nil
 	}
@@ -61,8 +61,8 @@ func buildTreeHelper(inorderIndex map[int]int, preorder []int, preRootIndex, lef
 	leftTreeLen := inRootIndex-leftSide
 	return &TreeNode{
 		Val: rootValue,
-		Left: buildTreeHelper(inorderIndex, preorder, preRootIndex+1, leftSide, inRootIndex-1),
-		Right: buildTreeHelper(inorderIndex, preorder, preRootIndex+1+leftTreeLen, inRootIndex+1, rightSide),
+		Left: buildTreeHelperOffer07(inorderIndex, preorder, preRootIndex+1, leftSide, inRootIndex-1),
+		Right: buildTreeHelperOffer07(inorderIndex, preorder, preRootIndex+1+leftTreeLen, inRootIndex+1, rightSide),
 	}
 }
 //leetcode submit region end(Prohibit modification and deletion)
