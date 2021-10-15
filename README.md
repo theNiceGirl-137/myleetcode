@@ -239,7 +239,6 @@
 | 380 O(1) 时间插入、删除和获取随机元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B380%5Dinsert_delete_getrandom_o1.go) |
 | 432 全 O(1) 的数据结构 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B432%5Dall_oone_data_structure.go) |
 | 684 冗余连接 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B684%5Dredundant_connection.go) |
-
 ## 剑指 Offer
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
@@ -248,3 +247,4 @@
 | 05 替换空格 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2005%5Dti_huan_kong_ge_lcof.go) |
 | 06 从头到尾打印链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2006%5Dcong_wei_dao_tou_da_yin_lian_biao_lcof.go) |
 | 07 重建二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2007%5Dzhong_jian_er_cha_shu_lcof.go) |
+| 09 用两个栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2009%5Dyong_liang_ge_zhan_shi_xian_dui_lie_lcof.go) |
