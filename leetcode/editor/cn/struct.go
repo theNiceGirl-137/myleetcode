@@ -26,6 +26,10 @@ func (this *stack)push(x int) {
 	*this = append(*this, x)
 }
 
+func (this *stack)empty() bool {
+	return len(*this) == 0
+}
+
 type treeStack []*TreeNode
 
 func (this *treeStack)push(x *TreeNode) {
