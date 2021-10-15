@@ -174,6 +174,7 @@
 | 6 Z 字型变换 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B6%5Dzigzag_conversion.go) |
 | 14 最长公共前缀 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B14%5Dlongest_common_prefix.go) |
 | 28 实现 strStr() | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B28%5Dimplement_strstr.go) |
+| 38 外观数组 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B38%5Dcount_and_say.go) |
 | 205 同构字符串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B205%5Disomorphic_strings.go) |
 | 227 基本计算器 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B227%5Dbasic_calculator_ii.go) |
 | 242 有效的字母异味词 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B242%5Dvalid_anagram.go) |
