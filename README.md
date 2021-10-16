@@ -250,3 +250,4 @@
 | 07 重建二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2007%5Dzhong_jian_er_cha_shu_lcof.go) |
 | 09 用两个栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2009%5Dyong_liang_ge_zhan_shi_xian_dui_lie_lcof.go) |
 | 10-I 斐波那契数列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
+| 10-II 青蛙跳台阶问题 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
