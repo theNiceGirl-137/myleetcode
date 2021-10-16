@@ -45,7 +45,7 @@
 | 215 数组中的第 K 个最大元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B215%5Dkth_largest_element_in_an_array.go) |
 | 347 前 K 个高频元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B347%5Dtop_k_frequent_elements.go) |
 | 451 根据字符出现频率排序 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B451%5Dsort_characters_by_frequency.go) |
-## 搜索算法
+## 搜索算法与回溯
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
 | 37 解数独 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B37%5Dsudoku_solver.go) |
@@ -59,6 +59,7 @@
 | 126 单词接龙 II | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B126%5Dword_ladder_ii.go) |
 | 130 被围绕的区域 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B130%5Dsurrounded_regions.go) |
 | 257 二叉树的所有路径 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B257%5Dbinary_tree_paths.go) |
+| 282 给表达式添加运算符 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B282%5Dexpression_add_operators.go) |
 | 310 最小高度树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B310%5Dminimum_height_trees.go) |
 | 332 重新安排行程 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B332%5Dreconstruct_itinerary.go) |
 | 417 太平洋大西洋水流问题 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B417%5Dpacific_atlantic_water_flow.go) |
