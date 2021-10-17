@@ -49,7 +49,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func exist(board [][]byte, word string) bool {
+func exist79(board [][]byte, word string) bool {
 	if len(board) == 0 {
 		return false
 	}
