@@ -138,6 +138,7 @@
 | 461 汉明距离 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B461%5Dhamming_distance.go) |
 | 476 数字的补数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B476%5Dnumber_complement.go) |
 | 693 交替位二进制数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B693%5Dbinary_number_with_alternating_bits.go) |
+| 1009 十进制整数的反码 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1009%5Dcomplement_of_base_10_integer.go) |
 ## 数据结构
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
@@ -244,12 +245,12 @@
 ## 剑指 Offer
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
-| 03 数组中的重复数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2003%5Dshu_zu_zhong_zhong_fu_de_shu_zi_lcof.go) |
-| 04 二维数组中的查找 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2004%5Der_wei_shu_zu_zhong_de_cha_zhao_lcof.go) |
-| 05 替换空格 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2005%5Dti_huan_kong_ge_lcof.go) |
-| 06 从头到尾打印链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2006%5Dcong_wei_dao_tou_da_yin_lian_biao_lcof.go) |
-| 07 重建二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2007%5Dzhong_jian_er_cha_shu_lcof.go) |
-| 09 用两个栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2009%5Dyong_liang_ge_zhan_shi_xian_dui_lie_lcof.go) |
+| 3 数组中的重复数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2003%5Dshu_zu_zhong_zhong_fu_de_shu_zi_lcof.go) |
+| 4 二维数组中的查找 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2004%5Der_wei_shu_zu_zhong_de_cha_zhao_lcof.go) |
+| 5 替换空格 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2005%5Dti_huan_kong_ge_lcof.go) |
+| 6 从头到尾打印链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2006%5Dcong_wei_dao_tou_da_yin_lian_biao_lcof.go) |
+| 7 重建二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2007%5Dzhong_jian_er_cha_shu_lcof.go) |
+| 9 用两个栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2009%5Dyong_liang_ge_zhan_shi_xian_dui_lie_lcof.go) |
 | 10-I 斐波那契数列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
 | 10-II 青蛙跳台阶问题 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
 | 11 旋转数组的最小数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2011%5Dxuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.go) |
