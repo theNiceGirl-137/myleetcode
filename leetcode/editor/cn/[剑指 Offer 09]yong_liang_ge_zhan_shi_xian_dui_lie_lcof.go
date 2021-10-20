@@ -36,7 +36,7 @@ type CQueue struct {
 }
 
 
-func Constructor() CQueue {
+func ConstructorOffer08() CQueue {
 	return CQueue{
 		in: make(stack, 0),
 		out: make(stack, 0),
