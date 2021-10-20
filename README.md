@@ -208,6 +208,7 @@
 | 144 二叉树的前序遍历 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B144%5Dbinary_tree_preorder_traversal.go) |
 | 145 二叉树的后序遍历 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B145%5Dbinary_tree_postorder_traversal.go) |
 | 208 实现 Tire(前缀树) | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B208%5Dimplement_trie_prefix_tree.go) |
+| 211 添加与搜索单词-数据结构设计 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B211%5Ddesign_add_and_search_words_data_structure.go) |
 | 226 翻转二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B226%5Dinvert_binary_tree.go) |
 | 230 二叉搜素树中第 K 小的元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B230%5Dkth_smallest_element_in_a_bst.go) |
 | 235 二叉搜索树的最近公共祖先 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[235]lowest_common_ancestor_of_a_binary_search_tree.go) |
