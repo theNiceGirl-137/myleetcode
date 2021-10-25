@@ -45,7 +45,7 @@ package leetcode
  *     Next *ListNode
  * }
  */
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists21(l1 *ListNode, l2 *ListNode) *ListNode {
 	// 遍历两个链表依次拼接，增加了哨兵节点
 	//pre := &ListNode{}
 	//newHead:= pre
