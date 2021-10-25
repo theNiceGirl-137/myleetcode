@@ -261,3 +261,4 @@
 | 14-I 剪绳子 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2014-%20I%5Djian_sheng_zi_lcof.go) |
 | 14-II 剪绳子 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2014-%20II%5Djian_sheng_zi_ii_lcof.go) |
 | 15 二进制中 1 的个数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2015%5Der_jin_zhi_zhong_1de_ge_shu_lcof.go) |
+| 16 数值的整数次方 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2016%5Dshu_zhi_de_zheng_shu_ci_fang_lcof.go) |
