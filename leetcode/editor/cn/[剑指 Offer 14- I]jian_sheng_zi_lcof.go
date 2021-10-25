@@ -26,7 +26,7 @@
 
 package leetcode
 //leetcode submit region begin(Prohibit modification and deletion)
-func cuttingRope(n int) int {
+func cuttingRopeOffer14_1(n int) int {
 	dp := make([]int, n+1)
 	dp[1] = 1
 	for i := 2; i <= n; i++ {
