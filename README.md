@@ -254,8 +254,9 @@
 | 7 重建二叉树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2007%5Dzhong_jian_er_cha_shu_lcof.go) |
 | 9 用两个栈实现队列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2009%5Dyong_liang_ge_zhan_shi_xian_dui_lie_lcof.go) |
 | 10-I 斐波那契数列 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
-| 10-II 青蛙跳台阶问题 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20I%5Dfei_bo_na_qi_shu_lie_lcof.go) |
+| 10-II 青蛙跳台阶问题 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2010-%20II%5Dqing_wa_tiao_tai_jie_wen_ti_lcof.go) |
 | 11 旋转数组的最小数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2011%5Dxuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.go) |
 | 12 矩阵中的路径 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2012%5Dju_zhen_zhong_de_lu_jing_lcof.go) |
 | 13 机器人的运动范围 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2013%5Dji_qi_ren_de_yun_dong_fan_wei_lcof.go) |
 | 14-I 剪绳子 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2014-%20I%5Djian_sheng_zi_lcof.go) |
+| 14-II 剪绳子 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2014-%20II%5Djian_sheng_zi_ii_lcof.go) |
