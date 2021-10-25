@@ -258,3 +258,4 @@
 | 11 旋转数组的最小数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2011%5Dxuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.go) |
 | 12 矩阵中的路径 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2012%5Dju_zhen_zhong_de_lu_jing_lcof.go) |
 | 13 机器人的运动范围 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2013%5Dji_qi_ren_de_yun_dong_fan_wei_lcof.go) |
+| 14-I 剪绳子 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B%E5%89%91%E6%8C%87%20Offer%2014-%20I%5Djian_sheng_zi_lcof.go) |
