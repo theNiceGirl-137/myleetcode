@@ -117,6 +117,7 @@
 | 172 阶乘后的零 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B172%5Dfactorial_trailing_zeroes.go) |
 | 202 快乐数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B202%5Dhappy_number.go) |
 | 204 计算质数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B204%5Dcount_primes.go) |
+| 231 2 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B231%5Dpower_of_two.go) |
 | 238 除自身以外数组的乘积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B238%5Dproduct_of_array_except_self.go) |
 | 263 丑数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[263]ugly_number.go) |
 | 326 3 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B326%5Dpower_of_three.go) |
