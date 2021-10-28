@@ -66,6 +66,7 @@
 | 417 太平洋大西洋水流问题 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B417%5Dpacific_atlantic_water_flow.go) |
 | 547 省份数量 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B547%5Dnumber_of_provinces.go) |
 | 695 岛屿的最大面积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B695%5Dmax_area_of_island.go) |
+| 869 重新排列得到 2 的幂 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B869%5Dreordered_power_of_2.go) |
 | 934 最短的桥 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B934%5Dshortest_bridge.go) |
 ## 动态规划
 | 题目                               | 难度   | 解答                                                         |
