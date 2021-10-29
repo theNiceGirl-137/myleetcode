@@ -121,6 +121,7 @@
 | 238 除自身以外数组的乘积 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B238%5Dproduct_of_array_except_self.go) |
 | 263 丑数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[263]ugly_number.go) |
 | 326 3 的幂 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B326%5Dpower_of_three.go) |
+| 335 路径交叉 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B335%5Dself_crossing.go) |
 | 382 链表随机节点 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B382%5Dlinked_list_random_node.go) |
 | 384 打乱数组 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B384%5Dshuffle_an_array.go) |
 | 412 Fizz Buzz | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B412%5Dfizz_buzz.go) |
