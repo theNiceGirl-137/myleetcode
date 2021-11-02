@@ -53,7 +53,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func deleteNode(root *TreeNode, key int) *TreeNode {
+func deleteNode450(root *TreeNode, key int) *TreeNode {
 	// 空树判断
 	if root == nil {
 		return nil
@@ -74,14 +74,14 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 		for next.Left != nil {
 			next = next.Left
 		}
-		root.Right = deleteNode(root.Right, next.Val)
+		root.Right = deleteNode450(root.Right, next.Val)
 		root.Val = next.Val
 		return root
 	}
 	if root.Val > key {
-		root.Left = deleteNode(root.Left, key)
+		root.Left = deleteNode450(root.Left, key)
 	} else {
-		root.Right = deleteNode(root.Right, key)
+		root.Right = deleteNode450(root.Right, key)
 	}
 	return root
 }
