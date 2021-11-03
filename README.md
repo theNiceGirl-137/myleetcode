@@ -150,6 +150,7 @@
 | 1 两数之和 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1%5Dtwo_sum.go) |
 | 20 有效的括号 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B20%5Dvalid_parentheses.go) |
 | 21 合并两个有序链表 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[21]merge_two_sorted_lists.go) |
+| 42 接雨水 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B42%5Dtrapping_rain_water.go) |
 | 48 旋转图像 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B48%5Drotate_image.go) |
 | 66 加一 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[66]plus_one.go) |
 | 128 最长连续序列 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B128%5Dlongest_consecutive_sequence.go) |
