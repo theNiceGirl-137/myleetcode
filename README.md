@@ -36,6 +36,7 @@
 | 81 搜索旋转排序数组 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B81%5Dsearch_in_rotated_sorted_array_ii.go) |
 | 153 寻找旋转排序数组中的最小值 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[153]find_minimum_in_rotated_sorted_array.go) |
 | 154 寻找旋转排序数组中的最小值 II | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/[154]find_minimum_in_rotated_sorted_array_ii.go) |
+| 367 有效的完全平方数 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B367%5Dvalid_perfect_square.go) |
 | 540 有序数组中的单一元素 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B540%5Dsingle_element_in_a_sorted_array.go) |
 ## 排序算法
 | 题目                               | 难度   | 解答                                                         |
