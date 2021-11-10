@@ -169,6 +169,7 @@
 | 307 区域和搜索-数组可修改 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B307%5Drange_sum_query_mutable.go) |
 | 313 超级丑数 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B313%5Dsuper_ugly_number.go) |
 | 448 找到所有数组中消失的数字 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B448%5Dfind_all_numbers_disappeared_in_an_array.go) |
+| 495 提莫攻击 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B495%5Dteemo_attacking.go) |
 | 496 下一个更大元素 I | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B496%5Dnext_greater_element_i.go) |
 | 503 下一个更大的元素 II | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B503%5Dnext_greater_element_ii.go) |
 | 560 和为 k 的子数组 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B560%5Dsubarray_sum_equals_k.go) |
