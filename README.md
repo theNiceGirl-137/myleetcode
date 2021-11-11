@@ -99,6 +99,7 @@
 | 494 目标和 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B494%5Dtarget_sum.go) |
 | 542 01 矩阵 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B542%5D01_matrix.go) |
 | 583 两个字符串的删除操作 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B583%5Ddelete_operation_for_two_strings.go) |
+| 629 K 个逆序对数组 | Hard | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B629%5Dk_inverse_pairs_array.go) |
 | 646 最长对数链 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B646%5Dmaximum_length_of_pair_chain.go) |
 | 650 只有两个键的键盘 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B650%5D2_keys_keyboard.go) |
 | 714 买卖股票的最佳时机含手续费 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B714%5Dbest_time_to_buy_and_sell_stock_with_transaction_fee.go) |
