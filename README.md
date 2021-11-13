@@ -195,6 +195,7 @@
 | 242 有效的字母异味词 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B242%5Dvalid_anagram.go) |
 | 299 猜数字游戏 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B299%5Dbulls_and_cows.go) |
 | 409 最长回文串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B409%5Dlongest_palindrome.go) |
+| 520 检测大写字母 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B520%5Ddetect_capital.go) |
 | 647 回文子串 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B647%5Dpalindromic_substrings.go) |
 | 696 计数二进制字符串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B696%5Dcount_binary_substrings.go) |
 ## 链表
