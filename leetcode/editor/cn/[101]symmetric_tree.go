@@ -40,7 +40,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func isSymmetric(root *TreeNode) bool {
+func isSymmetric101(root *TreeNode) bool {
 	// 判断一个树是否对称等价于判断左右子树是否对称。笔者一般习惯将判断两个子树是否相等
 	// 或对称类型的题的解法叫做“四步法”：
 	//（1）如果两个子树都为空指针，则它们相等或对称
@@ -50,10 +50,10 @@ func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
-	return isSymmetricHelper(root.Left, root.Right)
+	return isSymmetricHelper101(root.Left, root.Right)
 }
 
-func isSymmetricHelper(left, right *TreeNode) bool {
+func isSymmetricHelper101(left, right *TreeNode) bool {
 	if left == nil && right == nil {
 		return true
 	}
@@ -63,6 +63,6 @@ func isSymmetricHelper(left, right *TreeNode) bool {
 	if left.Val != right.Val {
 		return false
 	}
-	return isSymmetricHelper(left.Left, right.Right) && isSymmetricHelper(left.Right, right.Left)
+	return isSymmetricHelper101(left.Left, right.Right) && isSymmetricHelper101(left.Right, right.Left)
 }
 //leetcode submit region end(Prohibit modification and deletion)
