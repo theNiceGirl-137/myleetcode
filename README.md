@@ -240,6 +240,7 @@
 | 530 二叉搜索树的最小绝对差 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B530%5Dminimum_absolute_difference_in_bst.go) |
 | 538 把二叉搜索树转换为累加树 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B538%5Dconvert_bst_to_greater_tree.go) |
 | 543 二叉树的直径 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B543%5Ddiameter_of_binary_tree.go) |
+| 563 二叉树的坡度 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B563%5Dbinary_tree_tilt.go) |
 | 617 合并二叉树 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B617%5Dmerge_two_binary_trees.go) |
 | 637 二叉树的层平均值 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B637%5Daverage_of_levels_in_binary_tree.go) |
 | 653 两树之和 IV - 输入 BST | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B653%5Dtwo_sum_iv_input_is_a_bst.go) |
