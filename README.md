@@ -200,6 +200,7 @@
 | 520 检测大写字母 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B520%5Ddetect_capital.go) |
 | 647 回文子串 | Medium | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B647%5Dpalindromic_substrings.go) |
 | 696 计数二进制字符串 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B696%5Dcount_binary_substrings.go) |
+| 1446 连续字符 | Easy | [Answer](https://github.com/theNiceGirl-137/myleetcode/blob/main/leetcode/editor/cn/%5B1446%5Dconsecutive_characters.go) |
 ## 链表
 | 题目                               | 难度   | 解答                                                         |
 | ---------------------------------- | ------ | ------------------------------------------------------------ |
